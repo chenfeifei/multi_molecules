@@ -1,0 +1,2952 @@
+Problem:    
+Rows:       1201
+Columns:    619
+Non-zeros:  22819
+Status:     OPTIMAL
+Objective:  objective = 0 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 constraint   NS             1             1             =         < eps
+     2 constraint0  B    3.86547e-06   3.86547e-06               
+     3 constraint1  B   -3.86547e-06  -3.86547e-06               
+     4 constraint2  B    5.23689e-06   5.23689e-06               
+     5 constraint3  B   -5.23689e-06  -5.23689e-06               
+     6 constraint4  B    3.76406e-06   3.76406e-06               
+     7 constraint5  B   -3.76406e-06  -3.76406e-06               
+     8 constraint6  B    2.95546e-06   2.95546e-06               
+     9 constraint7  B   -2.95546e-06  -2.95546e-06               
+    10 constraint8  B    1.95192e-06   1.95192e-06               
+    11 constraint9  B   -1.95192e-06  -1.95192e-06               
+    12 constraint10 B    1.74602e-06   1.74602e-06               
+    13 constraint11 B   -1.74602e-06  -1.74602e-06               
+    14 constraint12 B    2.28129e-06   2.28129e-06               
+    15 constraint13 B   -2.28129e-06  -2.28129e-06               
+    16 constraint14 B    4.04425e-06   4.04425e-06               
+    17 constraint15 B   -4.04425e-06  -4.04425e-06               
+    18 constraint16 B    9.00009e-06   9.00009e-06               
+    19 constraint17 B   -9.00009e-06  -9.00009e-06               
+    20 constraint18 B    1.64955e-05   1.64955e-05               
+    21 constraint19 B   -1.64955e-05  -1.64955e-05               
+    22 constraint20 B    9.85283e-06   9.85283e-06               
+    23 constraint21 B   -9.85283e-06  -9.85283e-06               
+    24 constraint22 B    3.01721e-06   3.01721e-06               
+    25 constraint23 B   -3.01721e-06  -3.01721e-06               
+    26 constraint24 B   -7.20331e-07  -7.20331e-07               
+    27 constraint25 B    7.20331e-07   7.20331e-07               
+    28 constraint26 B    -3.3035e-06   -3.3035e-06               
+    29 constraint27 B     3.3035e-06    3.3035e-06               
+    30 constraint28 B   -5.03855e-06  -5.03855e-06               
+    31 constraint29 B    5.03855e-06   5.03855e-06               
+    32 constraint30 B   -9.48018e-06  -9.48018e-06               
+    33 constraint31 B    9.48018e-06   9.48018e-06               
+    34 constraint32 B   -2.14414e-05  -2.14414e-05               
+    35 constraint33 B    2.14414e-05   2.14414e-05               
+    36 constraint34 B   -4.34704e-05  -4.34704e-05               
+    37 constraint35 B    4.34704e-05   4.34704e-05               
+    38 constraint36 B   -2.93302e-05  -2.93302e-05               
+    39 constraint37 B    2.93302e-05   2.93302e-05               
+    40 constraint38 B   -3.81699e-06  -3.81699e-06               
+    41 constraint39 B    3.81699e-06   3.81699e-06               
+    42 constraint40 B    1.25018e-05   1.25018e-05               
+    43 constraint41 B   -1.25018e-05  -1.25018e-05               
+    44 constraint42 B    7.48789e-06   7.48789e-06               
+    45 constraint43 B   -7.48789e-06  -7.48789e-06               
+    46 constraint44 B    1.83958e-06   1.83958e-06               
+    47 constraint45 B   -1.83958e-06  -1.83958e-06               
+    48 constraint46 B     1.7189e-06    1.7189e-06               
+    49 constraint47 B    -1.7189e-06   -1.7189e-06               
+    50 constraint48 B    4.51875e-06   4.51875e-06               
+    51 constraint49 B   -4.51875e-06  -4.51875e-06               
+    52 constraint50 B    1.20428e-05   1.20428e-05               
+    53 constraint51 B   -1.20428e-05  -1.20428e-05               
+    54 constraint52 B    2.03663e-05   2.03663e-05               
+    55 constraint53 B   -2.03663e-05  -2.03663e-05               
+    56 constraint54 B    9.91048e-06   9.91048e-06               
+    57 constraint55 B   -9.91048e-06  -9.91048e-06               
+    58 constraint56 B    3.11032e-07   3.11032e-07               
+    59 constraint57 B   -3.11032e-07  -3.11032e-07               
+    60 constraint58 B   -5.97145e-06  -5.97145e-06               
+    61 constraint59 B    5.97145e-06   5.97145e-06               
+    62 constraint60 B   -1.39664e-05  -1.39664e-05               
+    63 constraint61 B    1.39664e-05   1.39664e-05               
+    64 constraint62 B   -3.08416e-05  -3.08416e-05               
+    65 constraint63 B    3.08416e-05   3.08416e-05               
+    66 constraint64 B   -6.93093e-05  -6.93093e-05               
+    67 constraint65 B    6.93093e-05   6.93093e-05               
+    68 constraint66 B   -7.61411e-05  -7.61411e-05               
+    69 constraint67 B    7.61411e-05   7.61411e-05               
+    70 constraint68 B   -3.62931e-05  -3.62931e-05               
+    71 constraint69 B    3.62931e-05   3.62931e-05               
+    72 constraint70 B   -1.81988e-05  -1.81988e-05               
+    73 constraint71 B    1.81988e-05   1.81988e-05               
+    74 constraint72 B   -1.14915e-05  -1.14915e-05               
+    75 constraint73 B    1.14915e-05   1.14915e-05               
+    76 constraint74 B   -9.32764e-06  -9.32764e-06               
+    77 constraint75 B    9.32764e-06   9.32764e-06               
+    78 constraint76 B   -1.03431e-05  -1.03431e-05               
+    79 constraint77 B    1.03431e-05   1.03431e-05               
+    80 constraint78 B   -1.49324e-05  -1.49324e-05               
+    81 constraint79 B    1.49324e-05   1.49324e-05               
+    82 constraint80 B   -1.40968e-05  -1.40968e-05               
+    83 constraint81 B    1.40968e-05   1.40968e-05               
+    84 constraint82 B   -1.14978e-05  -1.14978e-05               
+    85 constraint83 B    1.14978e-05   1.14978e-05               
+    86 constraint84 B   -1.47212e-05  -1.47212e-05               
+    87 constraint85 B    1.47212e-05   1.47212e-05               
+    88 constraint86 B   -2.52533e-05  -2.52533e-05               
+    89 constraint87 B    2.52533e-05   2.52533e-05               
+    90 constraint88 B   -2.49377e-05  -2.49377e-05               
+    91 constraint89 B    2.49377e-05   2.49377e-05               
+    92 constraint90 B   -1.68089e-05  -1.68089e-05               
+    93 constraint91 B    1.68089e-05   1.68089e-05               
+    94 constraint92 B   -1.72583e-05  -1.72583e-05               
+    95 constraint93 B    1.72583e-05   1.72583e-05               
+    96 constraint94 B   -2.75572e-05  -2.75572e-05               
+    97 constraint95 B    2.75572e-05   2.75572e-05               
+    98 constraint96 B   -5.55642e-05  -5.55642e-05               
+    99 constraint97 B    5.55642e-05   5.55642e-05               
+   100 constraint98 B   -6.01546e-05  -6.01546e-05               
+   101 constraint99 B    6.01546e-05   6.01546e-05               
+   102 constraint100
+                    B   -2.53271e-05  -2.53271e-05               
+   103 constraint101
+                    B    2.53271e-05   2.53271e-05               
+   104 constraint102
+                    B   -1.46871e-05  -1.46871e-05               
+   105 constraint103
+                    B    1.46871e-05   1.46871e-05               
+   106 constraint104
+                    B   -1.85356e-05  -1.85356e-05               
+   107 constraint105
+                    B    1.85356e-05   1.85356e-05               
+   108 constraint106
+                    B   -1.85061e-05  -1.85061e-05               
+   109 constraint107
+                    B    1.85061e-05   1.85061e-05               
+   110 constraint108
+                    B   -2.31511e-05  -2.31511e-05               
+   111 constraint109
+                    B    2.31511e-05   2.31511e-05               
+   112 constraint110
+                    B   -4.25824e-05  -4.25824e-05               
+   113 constraint111
+                    B    4.25824e-05   4.25824e-05               
+   114 constraint112
+                    B    -7.1823e-05   -7.1823e-05               
+   115 constraint113
+                    B     7.1823e-05    7.1823e-05               
+   116 constraint114
+                    B   -4.32056e-05  -4.32056e-05               
+   117 constraint115
+                    B    4.32056e-05   4.32056e-05               
+   118 constraint116
+                    B   -1.71851e-05  -1.71851e-05               
+   119 constraint117
+                    B    1.71851e-05   1.71851e-05               
+   120 constraint118
+                    B    8.12302e-07   8.12302e-07               
+   121 constraint119
+                    B   -8.12302e-07  -8.12302e-07               
+   122 constraint120
+                    B    4.64125e-06   4.64125e-06               
+   123 constraint121
+                    B   -4.64125e-06  -4.64125e-06               
+   124 constraint122
+                    B    6.10277e-07   6.10277e-07               
+   125 constraint123
+                    B   -6.10277e-07  -6.10277e-07               
+   126 constraint124
+                    B   -9.12685e-08  -9.12685e-08               
+   127 constraint125
+                    B    9.12685e-08   9.12685e-08               
+   128 constraint126
+                    B    1.44623e-06   1.44623e-06               
+   129 constraint127
+                    B   -1.44623e-06  -1.44623e-06               
+   130 constraint128
+                    B    2.63632e-06   2.63632e-06               
+   131 constraint129
+                    B   -2.63632e-06  -2.63632e-06               
+   132 constraint130
+                    B   -1.85782e-06  -1.85782e-06               
+   133 constraint131
+                    B    1.85782e-06   1.85782e-06               
+   134 constraint132
+                    B   -4.72565e-06  -4.72565e-06               
+   135 constraint133
+                    B    4.72565e-06   4.72565e-06               
+   136 constraint134
+                    B   -8.91931e-06  -8.91931e-06               
+   137 constraint135
+                    B    8.91931e-06   8.91931e-06               
+   138 constraint136
+                    B   -1.13926e-05  -1.13926e-05               
+   139 constraint137
+                    B    1.13926e-05   1.13926e-05               
+   140 constraint138
+                    B   -8.58887e-06  -8.58887e-06               
+   141 constraint139
+                    B    8.58887e-06   8.58887e-06               
+   142 constraint140
+                    B   -1.03847e-05  -1.03847e-05               
+   143 constraint141
+                    B    1.03847e-05   1.03847e-05               
+   144 constraint142
+                    B   -1.09329e-05  -1.09329e-05               
+   145 constraint143
+                    B    1.09329e-05   1.09329e-05               
+   146 constraint144
+                    B   -5.29902e-06  -5.29902e-06               
+   147 constraint145
+                    B    5.29902e-06   5.29902e-06               
+   148 constraint146
+                    B   -3.61928e-06  -3.61928e-06               
+   149 constraint147
+                    B    3.61928e-06   3.61928e-06               
+   150 constraint148
+                    B   -3.57302e-06  -3.57302e-06               
+   151 constraint149
+                    B    3.57302e-06   3.57302e-06               
+   152 constraint150
+                    B    -4.8431e-06   -4.8431e-06               
+   153 constraint151
+                    B     4.8431e-06    4.8431e-06               
+   154 constraint152
+                    B   -8.63121e-06  -8.63121e-06               
+   155 constraint153
+                    B    8.63121e-06   8.63121e-06               
+   156 constraint154
+                    B   -1.93857e-05  -1.93857e-05               
+   157 constraint155
+                    B    1.93857e-05   1.93857e-05               
+   158 constraint156
+                    B   -4.47734e-05  -4.47734e-05               
+   159 constraint157
+                    B    4.47734e-05   4.47734e-05               
+   160 constraint158
+                    B   -3.69548e-05  -3.69548e-05               
+   161 constraint159
+                    B    3.69548e-05   3.69548e-05               
+   162 constraint160
+                    B    9.63585e-06   9.63585e-06               
+   163 constraint161
+                    B   -9.63585e-06  -9.63585e-06               
+   164 constraint162
+                    B    5.85048e-05   5.85048e-05               
+   165 constraint163
+                    B   -5.85048e-05  -5.85048e-05               
+   166 constraint164
+                    B    6.67533e-05   6.67533e-05               
+   167 constraint165
+                    B   -6.67533e-05  -6.67533e-05               
+   168 constraint166
+                    B    3.17736e-05   3.17736e-05               
+   169 constraint167
+                    B   -3.17736e-05  -3.17736e-05               
+   170 constraint168
+                    B    1.08885e-05   1.08885e-05               
+   171 constraint169
+                    B   -1.08885e-05  -1.08885e-05               
+   172 constraint170
+                    B    1.30869e-05   1.30869e-05               
+   173 constraint171
+                    B   -1.30869e-05  -1.30869e-05               
+   174 constraint172
+                    B    1.89522e-05   1.89522e-05               
+   175 constraint173
+                    B   -1.89522e-05  -1.89522e-05               
+   176 constraint174
+                    B    9.83533e-06   9.83533e-06               
+   177 constraint175
+                    B   -9.83533e-06  -9.83533e-06               
+   178 constraint176
+                    B    1.00719e-06   1.00719e-06               
+   179 constraint177
+                    B   -1.00719e-06  -1.00719e-06               
+   180 constraint178
+                    B   -4.13954e-06  -4.13954e-06               
+   181 constraint179
+                    B    4.13954e-06   4.13954e-06               
+   182 constraint180
+                    B   -1.84485e-06  -1.84485e-06               
+   183 constraint181
+                    B    1.84485e-06   1.84485e-06               
+   184 constraint182
+                    B   -2.22822e-07  -2.22822e-07               
+   185 constraint183
+                    B    2.22822e-07   2.22822e-07               
+   186 constraint184
+                    B    2.84861e-07   2.84861e-07               
+   187 constraint185
+                    B   -2.84861e-07  -2.84861e-07               
+   188 constraint186
+                    B    4.44975e-07   4.44975e-07               
+   189 constraint187
+                    B   -4.44975e-07  -4.44975e-07               
+   190 constraint188
+                    B    4.99182e-07   4.99182e-07               
+   191 constraint189
+                    B   -4.99182e-07  -4.99182e-07               
+   192 constraint190
+                    B    5.21898e-07   5.21898e-07               
+   193 constraint191
+                    B   -5.21898e-07  -5.21898e-07               
+   194 constraint192
+                    B    5.38607e-07   5.38607e-07               
+   195 constraint193
+                    B   -5.38607e-07  -5.38607e-07               
+   196 constraint194
+                    B       5.59e-07      5.59e-07               
+   197 constraint195
+                    B      -5.59e-07     -5.59e-07               
+   198 constraint196
+                    B    5.87295e-07   5.87295e-07               
+   199 constraint197
+                    B   -5.87295e-07  -5.87295e-07               
+   200 constraint198
+                    B    6.25852e-07   6.25852e-07               
+   201 constraint199
+                    B   -6.25852e-07  -6.25852e-07               
+   202 constraint200
+                    B    6.76596e-07   6.76596e-07               
+   203 constraint201
+                    B   -6.76596e-07  -6.76596e-07               
+   204 constraint202
+                    B    7.41683e-07   7.41683e-07               
+   205 constraint203
+                    B   -7.41683e-07  -7.41683e-07               
+   206 constraint204
+                    B    8.23898e-07   8.23898e-07               
+   207 constraint205
+                    B   -8.23898e-07  -8.23898e-07               
+   208 constraint206
+                    B    9.27013e-07   9.27013e-07               
+   209 constraint207
+                    B   -9.27013e-07  -9.27013e-07               
+   210 constraint208
+                    B    1.05619e-06   1.05619e-06               
+   211 constraint209
+                    B   -1.05619e-06  -1.05619e-06               
+   212 constraint210
+                    B    1.21852e-06   1.21852e-06               
+   213 constraint211
+                    B   -1.21852e-06  -1.21852e-06               
+   214 constraint212
+                    B    1.42364e-06   1.42364e-06               
+   215 constraint213
+                    B   -1.42364e-06  -1.42364e-06               
+   216 constraint214
+                    B    1.68438e-06   1.68438e-06               
+   217 constraint215
+                    B   -1.68438e-06  -1.68438e-06               
+   218 constraint216
+                    B     2.0167e-06    2.0167e-06               
+   219 constraint217
+                    B    -2.0167e-06   -2.0167e-06               
+   220 constraint218
+                    B    2.43596e-06   2.43596e-06               
+   221 constraint219
+                    B   -2.43596e-06  -2.43596e-06               
+   222 constraint220
+                    B    2.93832e-06   2.93832e-06               
+   223 constraint221
+                    B   -2.93832e-06  -2.93832e-06               
+   224 constraint222
+                    B     3.4196e-06    3.4196e-06               
+   225 constraint223
+                    B    -3.4196e-06   -3.4196e-06               
+   226 constraint224
+                    B    3.32916e-06   3.32916e-06               
+   227 constraint225
+                    B   -3.32916e-06  -3.32916e-06               
+   228 constraint226
+                    B    5.67236e-07   5.67236e-07               
+   229 constraint227
+                    B   -5.67236e-07  -5.67236e-07               
+   230 constraint228
+                    NL  -1.49449e-07  -1.49449e-07                       < eps
+   231 constraint229
+                    B    1.49449e-07   1.49449e-07               
+   232 constraint230
+                    B    5.20802e-05   5.20802e-05               
+   233 constraint231
+                    B   -5.20802e-05  -5.20802e-05               
+   234 constraint232
+                    B    0.000142938   0.000142938               
+   235 constraint233
+                    B   -0.000142938  -0.000142938               
+   236 constraint234
+                    B    0.000111549   0.000111549               
+   237 constraint235
+                    B   -0.000111549  -0.000111549               
+   238 constraint236
+                    B    4.88607e-05   4.88607e-05               
+   239 constraint237
+                    B   -4.88607e-05  -4.88607e-05               
+   240 constraint238
+                    B    2.39041e-05   2.39041e-05               
+   241 constraint239
+                    B   -2.39041e-05  -2.39041e-05               
+   242 constraint240
+                    B    1.36179e-05   1.36179e-05               
+   243 constraint241
+                    B   -1.36179e-05  -1.36179e-05               
+   244 constraint242
+                    B    8.66241e-06   8.66241e-06               
+   245 constraint243
+                    B   -8.66241e-06  -8.66241e-06               
+   246 constraint244
+                    B    5.95757e-06   5.95757e-06               
+   247 constraint245
+                    B   -5.95757e-06  -5.95757e-06               
+   248 constraint246
+                    B    4.33909e-06   4.33909e-06               
+   249 constraint247
+                    B   -4.33909e-06  -4.33909e-06               
+   250 constraint248
+                    B    3.30259e-06   3.30259e-06               
+   251 constraint249
+                    B   -3.30259e-06  -3.30259e-06               
+   252 constraint250
+                    B    2.60445e-06   2.60445e-06               
+   253 constraint251
+                    B   -2.60445e-06  -2.60445e-06               
+   254 constraint252
+                    B    2.11666e-06   2.11666e-06               
+   255 constraint253
+                    B   -2.11666e-06  -2.11666e-06               
+   256 constraint254
+                    B    1.76768e-06   1.76768e-06               
+   257 constraint255
+                    B   -1.76768e-06  -1.76768e-06               
+   258 constraint256
+                    B    1.51602e-06   1.51602e-06               
+   259 constraint257
+                    B   -1.51602e-06  -1.51602e-06               
+   260 constraint258
+                    B    1.33785e-06   1.33785e-06               
+   261 constraint259
+                    B   -1.33785e-06  -1.33785e-06               
+   262 constraint260
+                    B    1.22143e-06   1.22143e-06               
+   263 constraint261
+                    B   -1.22143e-06  -1.22143e-06               
+   264 constraint262
+                    B    1.16609e-06   1.16609e-06               
+   265 constraint263
+                    B   -1.16609e-06  -1.16609e-06               
+   266 constraint264
+                    B    1.18642e-06   1.18642e-06               
+   267 constraint265
+                    B   -1.18642e-06  -1.18642e-06               
+   268 constraint266
+                    B    1.32823e-06   1.32823e-06               
+   269 constraint267
+                    B   -1.32823e-06  -1.32823e-06               
+   270 constraint268
+                    B    1.72082e-06   1.72082e-06               
+   271 constraint269
+                    B   -1.72082e-06  -1.72082e-06               
+   272 constraint270
+                    B    2.75832e-06   2.75832e-06               
+   273 constraint271
+                    B   -2.75832e-06  -2.75832e-06               
+   274 constraint272
+                    B    5.46361e-06   5.46361e-06               
+   275 constraint273
+                    B   -5.46361e-06  -5.46361e-06               
+   276 constraint274
+                    B    7.52707e-06   7.52707e-06               
+   277 constraint275
+                    B   -7.52707e-06  -7.52707e-06               
+   278 constraint276
+                    B    4.48486e-06   4.48486e-06               
+   279 constraint277
+                    B   -4.48486e-06  -4.48486e-06               
+   280 constraint278
+                    B    2.26843e-06   2.26843e-06               
+   281 constraint279
+                    B   -2.26843e-06  -2.26843e-06               
+   282 constraint280
+                    B     1.3239e-06    1.3239e-06               
+   283 constraint281
+                    B    -1.3239e-06   -1.3239e-06               
+   284 constraint282
+                    B    8.96398e-07   8.96398e-07               
+   285 constraint283
+                    B   -8.96398e-07  -8.96398e-07               
+   286 constraint284
+                    B    6.69303e-07   6.69303e-07               
+   287 constraint285
+                    B   -6.69303e-07  -6.69303e-07               
+   288 constraint286
+                    B    5.32355e-07   5.32355e-07               
+   289 constraint287
+                    B   -5.32355e-07  -5.32355e-07               
+   290 constraint288
+                    B    4.41712e-07   4.41712e-07               
+   291 constraint289
+                    B   -4.41712e-07  -4.41712e-07               
+   292 constraint290
+                    B    3.77433e-07   3.77433e-07               
+   293 constraint291
+                    B   -3.77433e-07  -3.77433e-07               
+   294 constraint292
+                    B    3.29415e-07   3.29415e-07               
+   295 constraint293
+                    B   -3.29415e-07  -3.29415e-07               
+   296 constraint294
+                    B    2.92084e-07   2.92084e-07               
+   297 constraint295
+                    B   -2.92084e-07  -2.92084e-07               
+   298 constraint296
+                    B    2.62145e-07   2.62145e-07               
+   299 constraint297
+                    B   -2.62145e-07  -2.62145e-07               
+   300 constraint298
+                    B    2.37537e-07   2.37537e-07               
+   301 constraint299
+                    B   -2.37537e-07  -2.37537e-07               
+   302 constraint300
+                    B     2.1691e-07    2.1691e-07               
+   303 constraint301
+                    B    -2.1691e-07   -2.1691e-07               
+   304 constraint302
+                    B    1.99342e-07   1.99342e-07               
+   305 constraint303
+                    B   -1.99342e-07  -1.99342e-07               
+   306 constraint304
+                    B    1.84182e-07   1.84182e-07               
+   307 constraint305
+                    B   -1.84182e-07  -1.84182e-07               
+   308 constraint306
+                    B    1.70957e-07   1.70957e-07               
+   309 constraint307
+                    B   -1.70957e-07  -1.70957e-07               
+   310 constraint308
+                    B    1.59313e-07   1.59313e-07               
+   311 constraint309
+                    B   -1.59313e-07  -1.59313e-07               
+   312 constraint310
+                    B    1.48983e-07   1.48983e-07               
+   313 constraint311
+                    B   -1.48983e-07  -1.48983e-07               
+   314 constraint312
+                    B    1.39756e-07   1.39756e-07               
+   315 constraint313
+                    B   -1.39756e-07  -1.39756e-07               
+   316 constraint314
+                    B    1.31468e-07   1.31468e-07               
+   317 constraint315
+                    B   -1.31468e-07  -1.31468e-07               
+   318 constraint316
+                    B    1.23984e-07   1.23984e-07               
+   319 constraint317
+                    B   -1.23984e-07  -1.23984e-07               
+   320 constraint318
+                    B    1.17197e-07   1.17197e-07               
+   321 constraint319
+                    B   -1.17197e-07  -1.17197e-07               
+   322 constraint320
+                    B    1.11018e-07   1.11018e-07               
+   323 constraint321
+                    B   -1.11018e-07  -1.11018e-07               
+   324 constraint322
+                    B    1.05372e-07   1.05372e-07               
+   325 constraint323
+                    B   -1.05372e-07  -1.05372e-07               
+   326 constraint324
+                    B    1.00197e-07   1.00197e-07               
+   327 constraint325
+                    B   -1.00197e-07  -1.00197e-07               
+   328 constraint326
+                    B    9.54404e-08   9.54404e-08               
+   329 constraint327
+                    B   -9.54404e-08  -9.54404e-08               
+   330 constraint328
+                    B    9.10571e-08   9.10571e-08               
+   331 constraint329
+                    B   -9.10571e-08  -9.10571e-08               
+   332 constraint330
+                    B    8.70081e-08   8.70081e-08               
+   333 constraint331
+                    B   -8.70081e-08  -8.70081e-08               
+   334 constraint332
+                    B    8.32599e-08   8.32599e-08               
+   335 constraint333
+                    B   -8.32599e-08  -8.32599e-08               
+   336 constraint334
+                    B    7.97833e-08   7.97833e-08               
+   337 constraint335
+                    B   -7.97833e-08  -7.97833e-08               
+   338 constraint336
+                    B    7.65527e-08   7.65527e-08               
+   339 constraint337
+                    B   -7.65527e-08  -7.65527e-08               
+   340 constraint338
+                    B    7.35457e-08   7.35457e-08               
+   341 constraint339
+                    B   -7.35457e-08  -7.35457e-08               
+   342 constraint340
+                    B    7.07424e-08   7.07424e-08               
+   343 constraint341
+                    B   -7.07424e-08  -7.07424e-08               
+   344 constraint342
+                    B    6.81253e-08   6.81253e-08               
+   345 constraint343
+                    B   -6.81253e-08  -6.81253e-08               
+   346 constraint344
+                    B    6.56787e-08   6.56787e-08               
+   347 constraint345
+                    B   -6.56787e-08  -6.56787e-08               
+   348 constraint346
+                    B    6.33887e-08   6.33887e-08               
+   349 constraint347
+                    B   -6.33887e-08  -6.33887e-08               
+   350 constraint348
+                    B    6.12427e-08   6.12427e-08               
+   351 constraint349
+                    B   -6.12427e-08  -6.12427e-08               
+   352 constraint350
+                    B    5.92296e-08   5.92296e-08               
+   353 constraint351
+                    B   -5.92296e-08  -5.92296e-08               
+   354 constraint352
+                    B    5.73393e-08   5.73393e-08               
+   355 constraint353
+                    B   -5.73393e-08  -5.73393e-08               
+   356 constraint354
+                    B    5.55625e-08   5.55625e-08               
+   357 constraint355
+                    B   -5.55625e-08  -5.55625e-08               
+   358 constraint356
+                    B    5.38911e-08   5.38911e-08               
+   359 constraint357
+                    B   -5.38911e-08  -5.38911e-08               
+   360 constraint358
+                    B    5.23176e-08   5.23176e-08               
+   361 constraint359
+                    B   -5.23176e-08  -5.23176e-08               
+   362 constraint360
+                    B    5.08351e-08   5.08351e-08               
+   363 constraint361
+                    B   -5.08351e-08  -5.08351e-08               
+   364 constraint362
+                    B    4.94373e-08   4.94373e-08               
+   365 constraint363
+                    B   -4.94373e-08  -4.94373e-08               
+   366 constraint364
+                    B    4.81188e-08   4.81188e-08               
+   367 constraint365
+                    B   -4.81188e-08  -4.81188e-08               
+   368 constraint366
+                    B    4.68741e-08   4.68741e-08               
+   369 constraint367
+                    B   -4.68741e-08  -4.68741e-08               
+   370 constraint368
+                    B    4.56987e-08   4.56987e-08               
+   371 constraint369
+                    B   -4.56987e-08  -4.56987e-08               
+   372 constraint370
+                    B    4.45881e-08   4.45881e-08               
+   373 constraint371
+                    B   -4.45881e-08  -4.45881e-08               
+   374 constraint372
+                    B    4.35384e-08   4.35384e-08               
+   375 constraint373
+                    B   -4.35384e-08  -4.35384e-08               
+   376 constraint374
+                    B    4.25458e-08   4.25458e-08               
+   377 constraint375
+                    B   -4.25458e-08  -4.25458e-08               
+   378 constraint376
+                    B    4.16069e-08   4.16069e-08               
+   379 constraint377
+                    B   -4.16069e-08  -4.16069e-08               
+   380 constraint378
+                    B    4.07187e-08   4.07187e-08               
+   381 constraint379
+                    B   -4.07187e-08  -4.07187e-08               
+   382 constraint380
+                    B    3.98782e-08   3.98782e-08               
+   383 constraint381
+                    B   -3.98782e-08  -3.98782e-08               
+   384 constraint382
+                    B    3.90827e-08   3.90827e-08               
+   385 constraint383
+                    B   -3.90827e-08  -3.90827e-08               
+   386 constraint384
+                    B    3.83297e-08   3.83297e-08               
+   387 constraint385
+                    B   -3.83297e-08  -3.83297e-08               
+   388 constraint386
+                    B     3.7617e-08    3.7617e-08               
+   389 constraint387
+                    B    -3.7617e-08   -3.7617e-08               
+   390 constraint388
+                    B    3.69425e-08   3.69425e-08               
+   391 constraint389
+                    B   -3.69425e-08  -3.69425e-08               
+   392 constraint390
+                    B     3.6304e-08    3.6304e-08               
+   393 constraint391
+                    B    -3.6304e-08   -3.6304e-08               
+   394 constraint392
+                    B    3.56999e-08   3.56999e-08               
+   395 constraint393
+                    B   -3.56999e-08  -3.56999e-08               
+   396 constraint394
+                    B    3.51284e-08   3.51284e-08               
+   397 constraint395
+                    B   -3.51284e-08  -3.51284e-08               
+   398 constraint396
+                    B    3.45878e-08   3.45878e-08               
+   399 constraint397
+                    B   -3.45878e-08  -3.45878e-08               
+   400 constraint398
+                    NL   3.40767e-08   3.40767e-08                       < eps
+   401 constraint399
+                    B   -3.40767e-08  -3.40767e-08               
+   402 constraint400
+                    B   -7.78946e-06  -7.78946e-06               
+   403 constraint401
+                    B    7.78946e-06   7.78946e-06               
+   404 constraint402
+                    B   -1.08873e-05  -1.08873e-05               
+   405 constraint403
+                    B    1.08873e-05   1.08873e-05               
+   406 constraint404
+                    B   -6.11988e-06  -6.11988e-06               
+   407 constraint405
+                    B    6.11988e-06   6.11988e-06               
+   408 constraint406
+                    B   -3.60615e-06  -3.60615e-06               
+   409 constraint407
+                    B    3.60615e-06   3.60615e-06               
+   410 constraint408
+                    B   -2.34142e-06  -2.34142e-06               
+   411 constraint409
+                    B    2.34142e-06   2.34142e-06               
+   412 constraint410
+                    B   -2.18658e-06  -2.18658e-06               
+   413 constraint411
+                    B    2.18658e-06   2.18658e-06               
+   414 constraint412
+                    B   -3.00022e-06  -3.00022e-06               
+   415 constraint413
+                    B    3.00022e-06   3.00022e-06               
+   416 constraint414
+                    B   -5.49434e-06  -5.49434e-06               
+   417 constraint415
+                    B    5.49434e-06   5.49434e-06               
+   418 constraint416
+                    B   -1.23589e-05  -1.23589e-05               
+   419 constraint417
+                    B    1.23589e-05   1.23589e-05               
+   420 constraint418
+                    B   -2.28022e-05  -2.28022e-05               
+   421 constraint419
+                    B    2.28022e-05   2.28022e-05               
+   422 constraint420
+                    B   -1.46136e-05  -1.46136e-05               
+   423 constraint421
+                    B    1.46136e-05   1.46136e-05               
+   424 constraint422
+                    B   -7.27019e-06  -7.27019e-06               
+   425 constraint423
+                    B    7.27019e-06   7.27019e-06               
+   426 constraint424
+                    B    -7.0389e-06   -7.0389e-06               
+   427 constraint425
+                    B     7.0389e-06    7.0389e-06               
+   428 constraint426
+                    B   -6.51016e-06  -6.51016e-06               
+   429 constraint427
+                    B    6.51016e-06   6.51016e-06               
+   430 constraint428
+                    B    2.89255e-06   2.89255e-06               
+   431 constraint429
+                    B   -2.89255e-06  -2.89255e-06               
+   432 constraint430
+                    B    1.42396e-05   1.42396e-05               
+   433 constraint431
+                    B   -1.42396e-05  -1.42396e-05               
+   434 constraint432
+                    B    3.64452e-05   3.64452e-05               
+   435 constraint433
+                    B   -3.64452e-05  -3.64452e-05               
+   436 constraint434
+                    B    7.56295e-05   7.56295e-05               
+   437 constraint435
+                    B   -7.56295e-05  -7.56295e-05               
+   438 constraint436
+                    B    5.54902e-05   5.54902e-05               
+   439 constraint437
+                    B   -5.54902e-05  -5.54902e-05               
+   440 constraint438
+                    B    2.16969e-05   2.16969e-05               
+   441 constraint439
+                    B   -2.16969e-05  -2.16969e-05               
+   442 constraint440
+                    B    6.08915e-06   6.08915e-06               
+   443 constraint441
+                    B   -6.08915e-06  -6.08915e-06               
+   444 constraint442
+                    B   -1.72374e-06  -1.72374e-06               
+   445 constraint443
+                    B    1.72374e-06   1.72374e-06               
+   446 constraint444
+                    B   -9.06163e-06  -9.06163e-06               
+   447 constraint445
+                    B    9.06163e-06   9.06163e-06               
+   448 constraint446
+                    B   -7.34596e-06  -7.34596e-06               
+   449 constraint447
+                    B    7.34596e-06   7.34596e-06               
+   450 constraint448
+                    B   -6.82415e-06  -6.82415e-06               
+   451 constraint449
+                    B    6.82415e-06   6.82415e-06               
+   452 constraint450
+                    B   -1.33377e-05  -1.33377e-05               
+   453 constraint451
+                    B    1.33377e-05   1.33377e-05               
+   454 constraint452
+                    B   -2.36147e-05  -2.36147e-05               
+   455 constraint453
+                    B    2.36147e-05   2.36147e-05               
+   456 constraint454
+                    B   -1.35553e-05  -1.35553e-05               
+   457 constraint455
+                    B    1.35553e-05   1.35553e-05               
+   458 constraint456
+                    B    -3.5403e-06   -3.5403e-06               
+   459 constraint457
+                    B     3.5403e-06    3.5403e-06               
+   460 constraint458
+                    B     1.8124e-06    1.8124e-06               
+   461 constraint459
+                    B    -1.8124e-06   -1.8124e-06               
+   462 constraint460
+                    B    7.11733e-06   7.11733e-06               
+   463 constraint461
+                    B   -7.11733e-06  -7.11733e-06               
+   464 constraint462
+                    B    1.70846e-05   1.70846e-05               
+   465 constraint463
+                    B   -1.70846e-05  -1.70846e-05               
+   466 constraint464
+                    B    3.95198e-05   3.95198e-05               
+   467 constraint465
+                    B   -3.95198e-05  -3.95198e-05               
+   468 constraint466
+                    B     4.5559e-05    4.5559e-05               
+   469 constraint467
+                    B    -4.5559e-05   -4.5559e-05               
+   470 constraint468
+                    B    2.18184e-05   2.18184e-05               
+   471 constraint469
+                    B   -2.18184e-05  -2.18184e-05               
+   472 constraint470
+                    B    1.06386e-05   1.06386e-05               
+   473 constraint471
+                    B   -1.06386e-05  -1.06386e-05               
+   474 constraint472
+                    B    6.40516e-06   6.40516e-06               
+   475 constraint473
+                    B   -6.40516e-06  -6.40516e-06               
+   476 constraint474
+                    B    4.78592e-06   4.78592e-06               
+   477 constraint475
+                    B   -4.78592e-06  -4.78592e-06               
+   478 constraint476
+                    B    4.60022e-06   4.60022e-06               
+   479 constraint477
+                    B   -4.60022e-06  -4.60022e-06               
+   480 constraint478
+                    B    5.70122e-06   5.70122e-06               
+   481 constraint479
+                    B   -5.70122e-06  -5.70122e-06               
+   482 constraint480
+                    B    6.11502e-06   6.11502e-06               
+   483 constraint481
+                    B   -6.11502e-06  -6.11502e-06               
+   484 constraint482
+                    B    7.21237e-06   7.21237e-06               
+   485 constraint483
+                    B   -7.21237e-06  -7.21237e-06               
+   486 constraint484
+                    B    1.25311e-05   1.25311e-05               
+   487 constraint485
+                    B   -1.25311e-05  -1.25311e-05               
+   488 constraint486
+                    B    2.52947e-05   2.52947e-05               
+   489 constraint487
+                    B   -2.52947e-05  -2.52947e-05               
+   490 constraint488
+                    B    2.37449e-05   2.37449e-05               
+   491 constraint489
+                    B   -2.37449e-05  -2.37449e-05               
+   492 constraint490
+                    B    1.11449e-05   1.11449e-05               
+   493 constraint491
+                    B   -1.11449e-05  -1.11449e-05               
+   494 constraint492
+                    B    5.78652e-06   5.78652e-06               
+   495 constraint493
+                    B   -5.78652e-06  -5.78652e-06               
+   496 constraint494
+                    B    3.73797e-06   3.73797e-06               
+   497 constraint495
+                    B   -3.73797e-06  -3.73797e-06               
+   498 constraint496
+                    B    3.05329e-06   3.05329e-06               
+   499 constraint497
+                    B   -3.05329e-06  -3.05329e-06               
+   500 constraint498
+                    B    2.00613e-06   2.00613e-06               
+   501 constraint499
+                    B   -2.00613e-06  -2.00613e-06               
+   502 constraint500
+                    B   -1.04785e-07  -1.04785e-07               
+   503 constraint501
+                    B    1.04785e-07   1.04785e-07               
+   504 constraint502
+                    B    3.52793e-06   3.52793e-06               
+   505 constraint503
+                    B   -3.52793e-06  -3.52793e-06               
+   506 constraint504
+                    B    1.16152e-05   1.16152e-05               
+   507 constraint505
+                    B   -1.16152e-05  -1.16152e-05               
+   508 constraint506
+                    B    8.79339e-06   8.79339e-06               
+   509 constraint507
+                    B   -8.79339e-06  -8.79339e-06               
+   510 constraint508
+                    B    5.10096e-06   5.10096e-06               
+   511 constraint509
+                    B   -5.10096e-06  -5.10096e-06               
+   512 constraint510
+                    B    4.98916e-06   4.98916e-06               
+   513 constraint511
+                    B   -4.98916e-06  -4.98916e-06               
+   514 constraint512
+                    B    4.41291e-06   4.41291e-06               
+   515 constraint513
+                    B   -4.41291e-06  -4.41291e-06               
+   516 constraint514
+                    NL   4.28102e-08   4.28102e-08                       < eps
+   517 constraint515
+                    B   -4.28102e-08  -4.28102e-08               
+   518 constraint516
+                    B    4.60478e-06   4.60478e-06               
+   519 constraint517
+                    B   -4.60478e-06  -4.60478e-06               
+   520 constraint518
+                    B   -2.48944e-06  -2.48944e-06               
+   521 constraint519
+                    B    2.48944e-06   2.48944e-06               
+   522 constraint520
+                    B   -5.08298e-06  -5.08298e-06               
+   523 constraint521
+                    B    5.08298e-06   5.08298e-06               
+   524 constraint522
+                    B   -1.29045e-06  -1.29045e-06               
+   525 constraint523
+                    B    1.29045e-06   1.29045e-06               
+   526 constraint524
+                    B    7.20319e-07   7.20319e-07               
+   527 constraint525
+                    B   -7.20319e-07  -7.20319e-07               
+   528 constraint526
+                    B     2.6405e-06    2.6405e-06               
+   529 constraint527
+                    B    -2.6405e-06   -2.6405e-06               
+   530 constraint528
+                    B     5.5354e-06    5.5354e-06               
+   531 constraint529
+                    B    -5.5354e-06   -5.5354e-06               
+   532 constraint530
+                    B    8.80296e-06   8.80296e-06               
+   533 constraint531
+                    B   -8.80296e-06  -8.80296e-06               
+   534 constraint532
+                    B    1.02913e-05   1.02913e-05               
+   535 constraint533
+                    B   -1.02913e-05  -1.02913e-05               
+   536 constraint534
+                    B    1.55846e-05   1.55846e-05               
+   537 constraint535
+                    B   -1.55846e-05  -1.55846e-05               
+   538 constraint536
+                    B     1.1844e-05    1.1844e-05               
+   539 constraint537
+                    B    -1.1844e-05   -1.1844e-05               
+   540 constraint538
+                    B    6.11209e-06   6.11209e-06               
+   541 constraint539
+                    B   -6.11209e-06  -6.11209e-06               
+   542 constraint540
+                    B    5.46889e-06   5.46889e-06               
+   543 constraint541
+                    B   -5.46889e-06  -5.46889e-06               
+   544 constraint542
+                    B    3.33463e-06   3.33463e-06               
+   545 constraint543
+                    B   -3.33463e-06  -3.33463e-06               
+   546 constraint544
+                    B   -7.81724e-07  -7.81724e-07               
+   547 constraint545
+                    B    7.81724e-07   7.81724e-07               
+   548 constraint546
+                    B   -1.48212e-06  -1.48212e-06               
+   549 constraint547
+                    B    1.48212e-06   1.48212e-06               
+   550 constraint548
+                    B   -2.37304e-06  -2.37304e-06               
+   551 constraint549
+                    B    2.37304e-06   2.37304e-06               
+   552 constraint550
+                    B   -3.75302e-06  -3.75302e-06               
+   553 constraint551
+                    B    3.75302e-06   3.75302e-06               
+   554 constraint552
+                    B   -6.11349e-06  -6.11349e-06               
+   555 constraint553
+                    B    6.11349e-06   6.11349e-06               
+   556 constraint554
+                    B    -1.0935e-05   -1.0935e-05               
+   557 constraint555
+                    B     1.0935e-05    1.0935e-05               
+   558 constraint556
+                    B   -2.09468e-05  -2.09468e-05               
+   559 constraint557
+                    B    2.09468e-05   2.09468e-05               
+   560 constraint558
+                    B   -2.65085e-05  -2.65085e-05               
+   561 constraint559
+                    B    2.65085e-05   2.65085e-05               
+   562 constraint560
+                    B   -3.25878e-05  -3.25878e-05               
+   563 constraint561
+                    B    3.25878e-05   3.25878e-05               
+   564 constraint562
+                    B   -6.12168e-05  -6.12168e-05               
+   565 constraint563
+                    B    6.12168e-05   6.12168e-05               
+   566 constraint564
+                    B   -9.23249e-05  -9.23249e-05               
+   567 constraint565
+                    B    9.23249e-05   9.23249e-05               
+   568 constraint566
+                    B   -5.39909e-05  -5.39909e-05               
+   569 constraint567
+                    B    5.39909e-05   5.39909e-05               
+   570 constraint568
+                    B   -2.48754e-05  -2.48754e-05               
+   571 constraint569
+                    B    2.48754e-05   2.48754e-05               
+   572 constraint570
+                    B   -2.10453e-05  -2.10453e-05               
+   573 constraint571
+                    B    2.10453e-05   2.10453e-05               
+   574 constraint572
+                    B   -2.18697e-05  -2.18697e-05               
+   575 constraint573
+                    B    2.18697e-05   2.18697e-05               
+   576 constraint574
+                    B   -1.08206e-05  -1.08206e-05               
+   577 constraint575
+                    B    1.08206e-05   1.08206e-05               
+   578 constraint576
+                    B    9.56185e-08   9.56185e-08               
+   579 constraint577
+                    B   -9.56185e-08  -9.56185e-08               
+   580 constraint578
+                    B    7.17043e-06   7.17043e-06               
+   581 constraint579
+                    B   -7.17043e-06  -7.17043e-06               
+   582 constraint580
+                    B    3.20557e-06   3.20557e-06               
+   583 constraint581
+                    B   -3.20557e-06  -3.20557e-06               
+   584 constraint582
+                    B    5.38629e-07   5.38629e-07               
+   585 constraint583
+                    B   -5.38629e-07  -5.38629e-07               
+   586 constraint584
+                    B   -2.76242e-07  -2.76242e-07               
+   587 constraint585
+                    B    2.76242e-07   2.76242e-07               
+   588 constraint586
+                    B     -4.979e-07    -4.979e-07               
+   589 constraint587
+                    B      4.979e-07     4.979e-07               
+   590 constraint588
+                    B   -5.27866e-07  -5.27866e-07               
+   591 constraint589
+                    B    5.27866e-07   5.27866e-07               
+   592 constraint590
+                    B   -4.92204e-07  -4.92204e-07               
+   593 constraint591
+                    B    4.92204e-07   4.92204e-07               
+   594 constraint592
+                    B   -4.34483e-07  -4.34483e-07               
+   595 constraint593
+                    B    4.34483e-07   4.34483e-07               
+   596 constraint594
+                    B    -3.7061e-07   -3.7061e-07               
+   597 constraint595
+                    B     3.7061e-07    3.7061e-07               
+   598 constraint596
+                    B   -3.06183e-07  -3.06183e-07               
+   599 constraint597
+                    B    3.06183e-07   3.06183e-07               
+   600 constraint598
+                    B   -2.42585e-07  -2.42585e-07               
+   601 constraint599
+                    B    2.42585e-07   2.42585e-07               
+   602 constraint600
+                    B   -1.79275e-07  -1.79275e-07               
+   603 constraint601
+                    B    1.79275e-07   1.79275e-07               
+   604 constraint602
+                    B   -1.14628e-07  -1.14628e-07               
+   605 constraint603
+                    B    1.14628e-07   1.14628e-07               
+   606 constraint604
+                    B   -4.61287e-08  -4.61287e-08               
+   607 constraint605
+                    B    4.61287e-08   4.61287e-08               
+   608 constraint606
+                    B    2.98114e-08   2.98114e-08               
+   609 constraint607
+                    B   -2.98114e-08  -2.98114e-08               
+   610 constraint608
+                    B    1.18409e-07   1.18409e-07               
+   611 constraint609
+                    B   -1.18409e-07  -1.18409e-07               
+   612 constraint610
+                    B    2.27618e-07   2.27618e-07               
+   613 constraint611
+                    B   -2.27618e-07  -2.27618e-07               
+   614 constraint612
+                    B    3.70278e-07   3.70278e-07               
+   615 constraint613
+                    B   -3.70278e-07  -3.70278e-07               
+   616 constraint614
+                    B    5.68463e-07   5.68463e-07               
+   617 constraint615
+                    B   -5.68463e-07  -5.68463e-07               
+   618 constraint616
+                    B    8.62906e-07   8.62906e-07               
+   619 constraint617
+                    B   -8.62906e-07  -8.62906e-07               
+   620 constraint618
+                    B    1.33529e-06   1.33529e-06               
+   621 constraint619
+                    B   -1.33529e-06  -1.33529e-06               
+   622 constraint620
+                    B    2.16699e-06   2.16699e-06               
+   623 constraint621
+                    B   -2.16699e-06  -2.16699e-06               
+   624 constraint622
+                    B    3.81504e-06   3.81504e-06               
+   625 constraint623
+                    B   -3.81504e-06  -3.81504e-06               
+   626 constraint624
+                    B    7.61072e-06   7.61072e-06               
+   627 constraint625
+                    B   -7.61072e-06  -7.61072e-06               
+   628 constraint626
+                    B    1.76023e-05   1.76023e-05               
+   629 constraint627
+                    B   -1.76023e-05  -1.76023e-05               
+   630 constraint628
+                    B    3.37996e-05   3.37996e-05               
+   631 constraint629
+                    B   -3.37996e-05  -3.37996e-05               
+   632 constraint630
+                    B    1.70922e-05   1.70922e-05               
+   633 constraint631
+                    B   -1.70922e-05  -1.70922e-05               
+   634 constraint632
+                    B   -6.40177e-06  -6.40177e-06               
+   635 constraint633
+                    B    6.40177e-06   6.40177e-06               
+   636 constraint634
+                    B   -7.83021e-06  -7.83021e-06               
+   637 constraint635
+                    B    7.83021e-06   7.83021e-06               
+   638 constraint636
+                    B   -2.68396e-06  -2.68396e-06               
+   639 constraint637
+                    B    2.68396e-06   2.68396e-06               
+   640 constraint638
+                    B     -8.442e-07    -8.442e-07               
+   641 constraint639
+                    B      8.442e-07     8.442e-07               
+   642 constraint640
+                    B   -2.41022e-07  -2.41022e-07               
+   643 constraint641
+                    B    2.41022e-07   2.41022e-07               
+   644 constraint642
+                    B   -2.54018e-08  -2.54018e-08               
+   645 constraint643
+                    B    2.54018e-08   2.54018e-08               
+   646 constraint644
+                    B    5.55745e-08   5.55745e-08               
+   647 constraint645
+                    B   -5.55745e-08  -5.55745e-08               
+   648 constraint646
+                    B    8.53547e-08   8.53547e-08               
+   649 constraint647
+                    B   -8.53547e-08  -8.53547e-08               
+   650 constraint648
+                    B    9.48023e-08   9.48023e-08               
+   651 constraint649
+                    B   -9.48023e-08  -9.48023e-08               
+   652 constraint650
+                    B    9.64461e-08   9.64461e-08               
+   653 constraint651
+                    B   -9.64461e-08  -9.64461e-08               
+   654 constraint652
+                    B    9.58034e-08   9.58034e-08               
+   655 constraint653
+                    B   -9.58034e-08  -9.58034e-08               
+   656 constraint654
+                    B    9.55638e-08   9.55638e-08               
+   657 constraint655
+                    B   -9.55638e-08  -9.55638e-08               
+   658 constraint656
+                    B    9.73129e-08   9.73129e-08               
+   659 constraint657
+                    B   -9.73129e-08  -9.73129e-08               
+   660 constraint658
+                    B    1.02365e-07   1.02365e-07               
+   661 constraint659
+                    B   -1.02365e-07  -1.02365e-07               
+   662 constraint660
+                    B     1.1232e-07    1.1232e-07               
+   663 constraint661
+                    B    -1.1232e-07   -1.1232e-07               
+   664 constraint662
+                    B    1.29684e-07   1.29684e-07               
+   665 constraint663
+                    B   -1.29684e-07  -1.29684e-07               
+   666 constraint664
+                    B    1.58945e-07   1.58945e-07               
+   667 constraint665
+                    B   -1.58945e-07  -1.58945e-07               
+   668 constraint666
+                    B    2.08892e-07   2.08892e-07               
+   669 constraint667
+                    B   -2.08892e-07  -2.08892e-07               
+   670 constraint668
+                    B    2.98371e-07   2.98371e-07               
+   671 constraint669
+                    B   -2.98371e-07  -2.98371e-07               
+   672 constraint670
+                    B    4.72881e-07   4.72881e-07               
+   673 constraint671
+                    B   -4.72881e-07  -4.72881e-07               
+   674 constraint672
+                    B    8.82102e-07   8.82102e-07               
+   675 constraint673
+                    B   -8.82102e-07  -8.82102e-07               
+   676 constraint674
+                    B    2.28467e-06   2.28467e-06               
+   677 constraint675
+                    B   -2.28467e-06  -2.28467e-06               
+   678 constraint676
+                    B    3.47476e-06   3.47476e-06               
+   679 constraint677
+                    B   -3.47476e-06  -3.47476e-06               
+   680 constraint678
+                    B    1.75753e-06   1.75753e-06               
+   681 constraint679
+                    B   -1.75753e-06  -1.75753e-06               
+   682 constraint680
+                    B    8.06314e-07   8.06314e-07               
+   683 constraint681
+                    B   -8.06314e-07  -8.06314e-07               
+   684 constraint682
+                    B    4.35105e-07   4.35105e-07               
+   685 constraint683
+                    B   -4.35105e-07  -4.35105e-07               
+   686 constraint684
+                    B    2.67606e-07   2.67606e-07               
+   687 constraint685
+                    B   -2.67606e-07  -2.67606e-07               
+   688 constraint686
+                    B    1.80211e-07   1.80211e-07               
+   689 constraint687
+                    B   -1.80211e-07  -1.80211e-07               
+   690 constraint688
+                    B    1.29362e-07   1.29362e-07               
+   691 constraint689
+                    B   -1.29362e-07  -1.29362e-07               
+   692 constraint690
+                    B    9.72865e-08   9.72865e-08               
+   693 constraint691
+                    B   -9.72865e-08  -9.72865e-08               
+   694 constraint692
+                    B    7.57751e-08   7.57751e-08               
+   695 constraint693
+                    B   -7.57751e-08  -7.57751e-08               
+   696 constraint694
+                    B    6.06449e-08   6.06449e-08               
+   697 constraint695
+                    B   -6.06449e-08  -6.06449e-08               
+   698 constraint696
+                    B    4.95924e-08   4.95924e-08               
+   699 constraint697
+                    B   -4.95924e-08  -4.95924e-08               
+   700 constraint698
+                    B    4.12671e-08   4.12671e-08               
+   701 constraint699
+                    B   -4.12671e-08  -4.12671e-08               
+   702 constraint700
+                    B    3.48357e-08   3.48357e-08               
+   703 constraint701
+                    B   -3.48357e-08  -3.48357e-08               
+   704 constraint702
+                    B    2.97615e-08   2.97615e-08               
+   705 constraint703
+                    B   -2.97615e-08  -2.97615e-08               
+   706 constraint704
+                    B    2.56861e-08   2.56861e-08               
+   707 constraint705
+                    B   -2.56861e-08  -2.56861e-08               
+   708 constraint706
+                    B     2.2363e-08    2.2363e-08               
+   709 constraint707
+                    B    -2.2363e-08   -2.2363e-08               
+   710 constraint708
+                    B    1.96177e-08   1.96177e-08               
+   711 constraint709
+                    B   -1.96177e-08  -1.96177e-08               
+   712 constraint710
+                    B    1.73238e-08   1.73238e-08               
+   713 constraint711
+                    B   -1.73238e-08  -1.73238e-08               
+   714 constraint712
+                    B    1.53881e-08   1.53881e-08               
+   715 constraint713
+                    B   -1.53881e-08  -1.53881e-08               
+   716 constraint714
+                    B    1.37405e-08   1.37405e-08               
+   717 constraint715
+                    B   -1.37405e-08  -1.37405e-08               
+   718 constraint716
+                    B    1.23273e-08   1.23273e-08               
+   719 constraint717
+                    B   -1.23273e-08  -1.23273e-08               
+   720 constraint718
+                    B    1.11068e-08   1.11068e-08               
+   721 constraint719
+                    B   -1.11068e-08  -1.11068e-08               
+   722 constraint720
+                    B    1.00464e-08   1.00464e-08               
+   723 constraint721
+                    B   -1.00464e-08  -1.00464e-08               
+   724 constraint722
+                    B    9.12008e-09   9.12008e-09               
+   725 constraint723
+                    B   -9.12008e-09  -9.12008e-09               
+   726 constraint724
+                    B    8.30693e-09   8.30693e-09               
+   727 constraint725
+                    B   -8.30693e-09  -8.30693e-09               
+   728 constraint726
+                    B    7.59001e-09   7.59001e-09               
+   729 constraint727
+                    B   -7.59001e-09  -7.59001e-09               
+   730 constraint728
+                    B    6.95542e-09   6.95542e-09               
+   731 constraint729
+                    B   -6.95542e-09  -6.95542e-09               
+   732 constraint730
+                    B    6.39173e-09   6.39173e-09               
+   733 constraint731
+                    B   -6.39173e-09  -6.39173e-09               
+   734 constraint732
+                    B    5.88939e-09   5.88939e-09               
+   735 constraint733
+                    B   -5.88939e-09  -5.88939e-09               
+   736 constraint734
+                    B    5.44044e-09   5.44044e-09               
+   737 constraint735
+                    B   -5.44044e-09  -5.44044e-09               
+   738 constraint736
+                    B    5.03817e-09   5.03817e-09               
+   739 constraint737
+                    B   -5.03817e-09  -5.03817e-09               
+   740 constraint738
+                    B    4.67687e-09   4.67687e-09               
+   741 constraint739
+                    B   -4.67687e-09  -4.67687e-09               
+   742 constraint740
+                    B    4.35169e-09   4.35169e-09               
+   743 constraint741
+                    B   -4.35169e-09  -4.35169e-09               
+   744 constraint742
+                    B     4.0585e-09    4.0585e-09               
+   745 constraint743
+                    B    -4.0585e-09   -4.0585e-09               
+   746 constraint744
+                    B    3.79371e-09   3.79371e-09               
+   747 constraint745
+                    B   -3.79371e-09  -3.79371e-09               
+   748 constraint746
+                    B    3.55424e-09   3.55424e-09               
+   749 constraint747
+                    B   -3.55424e-09  -3.55424e-09               
+   750 constraint748
+                    B    3.33743e-09   3.33743e-09               
+   751 constraint749
+                    B   -3.33743e-09  -3.33743e-09               
+   752 constraint750
+                    B    3.14093e-09   3.14093e-09               
+   753 constraint751
+                    B   -3.14093e-09  -3.14093e-09               
+   754 constraint752
+                    B    2.96272e-09   2.96272e-09               
+   755 constraint753
+                    B   -2.96272e-09  -2.96272e-09               
+   756 constraint754
+                    B    2.80103e-09   2.80103e-09               
+   757 constraint755
+                    B   -2.80103e-09  -2.80103e-09               
+   758 constraint756
+                    B    2.65427e-09   2.65427e-09               
+   759 constraint757
+                    B   -2.65427e-09  -2.65427e-09               
+   760 constraint758
+                    B    2.52108e-09   2.52108e-09               
+   761 constraint759
+                    B   -2.52108e-09  -2.52108e-09               
+   762 constraint760
+                    B    2.40025e-09   2.40025e-09               
+   763 constraint761
+                    B   -2.40025e-09  -2.40025e-09               
+   764 constraint762
+                    B    2.29068e-09   2.29068e-09               
+   765 constraint763
+                    B   -2.29068e-09  -2.29068e-09               
+   766 constraint764
+                    B    2.19144e-09   2.19144e-09               
+   767 constraint765
+                    B   -2.19144e-09  -2.19144e-09               
+   768 constraint766
+                    B    2.10166e-09   2.10166e-09               
+   769 constraint767
+                    B   -2.10166e-09  -2.10166e-09               
+   770 constraint768
+                    B     2.0206e-09    2.0206e-09               
+   771 constraint769
+                    B    -2.0206e-09   -2.0206e-09               
+   772 constraint770
+                    B    1.94757e-09   1.94757e-09               
+   773 constraint771
+                    B   -1.94757e-09  -1.94757e-09               
+   774 constraint772
+                    B    1.88199e-09   1.88199e-09               
+   775 constraint773
+                    B   -1.88199e-09  -1.88199e-09               
+   776 constraint774
+                    B     1.8233e-09    1.8233e-09               
+   777 constraint775
+                    B    -1.8233e-09   -1.8233e-09               
+   778 constraint776
+                    B    1.77104e-09   1.77104e-09               
+   779 constraint777
+                    B   -1.77104e-09  -1.77104e-09               
+   780 constraint778
+                    B    1.72477e-09   1.72477e-09               
+   781 constraint779
+                    B   -1.72477e-09  -1.72477e-09               
+   782 constraint780
+                    B    1.68411e-09   1.68411e-09               
+   783 constraint781
+                    B   -1.68411e-09  -1.68411e-09               
+   784 constraint782
+                    B    1.64871e-09   1.64871e-09               
+   785 constraint783
+                    B   -1.64871e-09  -1.64871e-09               
+   786 constraint784
+                    B    1.61826e-09   1.61826e-09               
+   787 constraint785
+                    B   -1.61826e-09  -1.61826e-09               
+   788 constraint786
+                    B    1.59249e-09   1.59249e-09               
+   789 constraint787
+                    B   -1.59249e-09  -1.59249e-09               
+   790 constraint788
+                    B    1.57115e-09   1.57115e-09               
+   791 constraint789
+                    B   -1.57115e-09  -1.57115e-09               
+   792 constraint790
+                    B    1.55403e-09   1.55403e-09               
+   793 constraint791
+                    B   -1.55403e-09  -1.55403e-09               
+   794 constraint792
+                    B    1.54091e-09   1.54091e-09               
+   795 constraint793
+                    B   -1.54091e-09  -1.54091e-09               
+   796 constraint794
+                    B    1.53164e-09   1.53164e-09               
+   797 constraint795
+                    B   -1.53164e-09  -1.53164e-09               
+   798 constraint796
+                    B    1.52605e-09   1.52605e-09               
+   799 constraint797
+                    B   -1.52605e-09  -1.52605e-09               
+   800 constraint798
+                    B    1.52401e-09   1.52401e-09               
+   801 constraint799
+                    B   -1.52401e-09  -1.52401e-09               
+   802 constraint800
+                    B   -1.28599e-05  -1.28599e-05               
+   803 constraint801
+                    B    1.28599e-05   1.28599e-05               
+   804 constraint802
+                    B   -1.80391e-05  -1.80391e-05               
+   805 constraint803
+                    B    1.80391e-05   1.80391e-05               
+   806 constraint804
+                    B   -8.98828e-06  -8.98828e-06               
+   807 constraint805
+                    B    8.98828e-06   8.98828e-06               
+   808 constraint806
+                    B   -4.26181e-06  -4.26181e-06               
+   809 constraint807
+                    B    4.26181e-06   4.26181e-06               
+   810 constraint808
+                    B   -2.80089e-06  -2.80089e-06               
+   811 constraint809
+                    B    2.80089e-06   2.80089e-06               
+   812 constraint810
+                    B   -2.78219e-06  -2.78219e-06               
+   813 constraint811
+                    B    2.78219e-06   2.78219e-06               
+   814 constraint812
+                    B   -4.00135e-06  -4.00135e-06               
+   815 constraint813
+                    B    4.00135e-06   4.00135e-06               
+   816 constraint814
+                    B   -7.53157e-06  -7.53157e-06               
+   817 constraint815
+                    B    7.53157e-06   7.53157e-06               
+   818 constraint816
+                    B   -1.71365e-05  -1.71365e-05               
+   819 constraint817
+                    B    1.71365e-05   1.71365e-05               
+   820 constraint818
+                    B   -3.17726e-05  -3.17726e-05               
+   821 constraint819
+                    B    3.17726e-05   3.17726e-05               
+   822 constraint820
+                    B   -2.08318e-05  -2.08318e-05               
+   823 constraint821
+                    B    2.08318e-05   2.08318e-05               
+   824 constraint822
+                    B   -1.16502e-05  -1.16502e-05               
+   825 constraint823
+                    B    1.16502e-05   1.16502e-05               
+   826 constraint824
+                    B   -1.38933e-05  -1.38933e-05               
+   827 constraint825
+                    B    1.38933e-05   1.38933e-05               
+   828 constraint826
+                    B   -1.46776e-05  -1.46776e-05               
+   829 constraint827
+                    B    1.46776e-05   1.46776e-05               
+   830 constraint828
+                    B    2.35671e-06   2.35671e-06               
+   831 constraint829
+                    B   -2.35671e-06  -2.35671e-06               
+   832 constraint830
+                    B    2.13469e-05   2.13469e-05               
+   833 constraint831
+                    B   -2.13469e-05  -2.13469e-05               
+   834 constraint832
+                    B    5.62873e-05   5.62873e-05               
+   835 constraint833
+                    B   -5.62873e-05  -5.62873e-05               
+   836 constraint834
+                    B    0.000117356   0.000117356               
+   837 constraint835
+                    B   -0.000117356  -0.000117356               
+   838 constraint836
+                    B    8.85995e-05   8.85995e-05               
+   839 constraint837
+                    B   -8.85995e-05  -8.85995e-05               
+   840 constraint838
+                    B    4.21027e-05   4.21027e-05               
+   841 constraint839
+                    B   -4.21027e-05  -4.21027e-05               
+   842 constraint840
+                    B    2.50892e-05   2.50892e-05               
+   843 constraint841
+                    B   -2.50892e-05  -2.50892e-05               
+   844 constraint842
+                    B    4.58815e-06   4.58815e-06               
+   845 constraint843
+                    B   -4.58815e-06  -4.58815e-06               
+   846 constraint844
+                    B   -1.51838e-05  -1.51838e-05               
+   847 constraint845
+                    B    1.51838e-05   1.51838e-05               
+   848 constraint846
+                    B   -1.22239e-05  -1.22239e-05               
+   849 constraint847
+                    B    1.22239e-05   1.22239e-05               
+   850 constraint848
+                    B   -8.81728e-06  -8.81728e-06               
+   851 constraint849
+                    B    8.81728e-06   8.81728e-06               
+   852 constraint850
+                    B   -1.47158e-05  -1.47158e-05               
+   853 constraint851
+                    B    1.47158e-05   1.47158e-05               
+   854 constraint852
+                    B   -2.80174e-05  -2.80174e-05               
+   855 constraint853
+                    B    2.80174e-05   2.80174e-05               
+   856 constraint854
+                    B   -1.80377e-05  -1.80377e-05               
+   857 constraint855
+                    B    1.80377e-05   1.80377e-05               
+   858 constraint856
+                    B   -6.88045e-06  -6.88045e-06               
+   859 constraint857
+                    B    6.88045e-06   6.88045e-06               
+   860 constraint858
+                    B   -2.06502e-06  -2.06502e-06               
+   861 constraint859
+                    B    2.06502e-06   2.06502e-06               
+   862 constraint860
+                    B    9.54842e-07   9.54842e-07               
+   863 constraint861
+                    B   -9.54842e-07  -9.54842e-07               
+   864 constraint862
+                    B    4.81064e-06   4.81064e-06               
+   865 constraint863
+                    B   -4.81064e-06  -4.81064e-06               
+   866 constraint864
+                    B      1.303e-05     1.303e-05               
+   867 constraint865
+                    B     -1.303e-05    -1.303e-05               
+   868 constraint866
+                    B    1.87294e-05   1.87294e-05               
+   869 constraint867
+                    B   -1.87294e-05  -1.87294e-05               
+   870 constraint868
+                    B    9.16738e-06   9.16738e-06               
+   871 constraint869
+                    B   -9.16738e-06  -9.16738e-06               
+   872 constraint870
+                    B    3.99894e-06   3.99894e-06               
+   873 constraint871
+                    B   -3.99894e-06  -3.99894e-06               
+   874 constraint872
+                    B    1.89679e-06   1.89679e-06               
+   875 constraint873
+                    B   -1.89679e-06  -1.89679e-06               
+   876 constraint874
+                    B    6.89619e-07   6.89619e-07               
+   877 constraint875
+                    B   -6.89619e-07  -6.89619e-07               
+   878 constraint876
+                    B   -7.20658e-07  -7.20658e-07               
+   879 constraint877
+                    B    7.20658e-07   7.20658e-07               
+   880 constraint878
+                    B    -3.0397e-06   -3.0397e-06               
+   881 constraint879
+                    B     3.0397e-06    3.0397e-06               
+   882 constraint880
+                    B   -1.29514e-06  -1.29514e-06               
+   883 constraint881
+                    B    1.29514e-06   1.29514e-06               
+   884 constraint882
+                    B    3.70118e-06   3.70118e-06               
+   885 constraint883
+                    B   -3.70118e-06  -3.70118e-06               
+   886 constraint884
+                    B    1.17487e-05   1.17487e-05               
+   887 constraint885
+                    B   -1.17487e-05  -1.17487e-05               
+   888 constraint886
+                    B    2.81928e-05   2.81928e-05               
+   889 constraint887
+                    B   -2.81928e-05  -2.81928e-05               
+   890 constraint888
+                    B    2.52552e-05   2.52552e-05               
+   891 constraint889
+                    B   -2.52552e-05  -2.52552e-05               
+   892 constraint890
+                    B      6.798e-06     6.798e-06               
+   893 constraint891
+                    B     -6.798e-06    -6.798e-06               
+   894 constraint892
+                    B   -4.93848e-06  -4.93848e-06               
+   895 constraint893
+                    B    4.93848e-06   4.93848e-06               
+   896 constraint894
+                    B   -1.95188e-05  -1.95188e-05               
+   897 constraint895
+                    B    1.95188e-05   1.95188e-05               
+   898 constraint896
+                    B   -4.88898e-05  -4.88898e-05               
+   899 constraint897
+                    B    4.88898e-05   4.88898e-05               
+   900 constraint898
+                    B   -5.55386e-05  -5.55386e-05               
+   901 constraint899
+                    B    5.55386e-05   5.55386e-05               
+   902 constraint900
+                    B   -2.48803e-05  -2.48803e-05               
+   903 constraint901
+                    B    2.48803e-05   2.48803e-05               
+   904 constraint902
+                    B   -6.53697e-06  -6.53697e-06               
+   905 constraint903
+                    B    6.53697e-06   6.53697e-06               
+   906 constraint904
+                    B    6.60489e-06   6.60489e-06               
+   907 constraint905
+                    B   -6.60489e-06  -6.60489e-06               
+   908 constraint906
+                    B    6.78282e-07   6.78282e-07               
+   909 constraint907
+                    B   -6.78282e-07  -6.78282e-07               
+   910 constraint908
+                    B    -1.1606e-05   -1.1606e-05               
+   911 constraint909
+                    B     1.1606e-05    1.1606e-05               
+   912 constraint910
+                    B   -3.05595e-05  -3.05595e-05               
+   913 constraint911
+                    B    3.05595e-05   3.05595e-05               
+   914 constraint912
+                    B   -5.79355e-05  -5.79355e-05               
+   915 constraint913
+                    B    5.79355e-05   5.79355e-05               
+   916 constraint914
+                    B   -3.83406e-05  -3.83406e-05               
+   917 constraint915
+                    B    3.83406e-05   3.83406e-05               
+   918 constraint916
+                    B   -4.20789e-06  -4.20789e-06               
+   919 constraint917
+                    B    4.20789e-06   4.20789e-06               
+   920 constraint918
+                    B    -1.5754e-06   -1.5754e-06               
+   921 constraint919
+                    B     1.5754e-06    1.5754e-06               
+   922 constraint920
+                    B   -4.25486e-06  -4.25486e-06               
+   923 constraint921
+                    B    4.25486e-06   4.25486e-06               
+   924 constraint922
+                    B   -1.24119e-06  -1.24119e-06               
+   925 constraint923
+                    B    1.24119e-06   1.24119e-06               
+   926 constraint924
+                    B    1.89324e-06   1.89324e-06               
+   927 constraint925
+                    B   -1.89324e-06  -1.89324e-06               
+   928 constraint926
+                    B    7.34493e-06   7.34493e-06               
+   929 constraint927
+                    B   -7.34493e-06  -7.34493e-06               
+   930 constraint928
+                    B    1.45101e-05   1.45101e-05               
+   931 constraint929
+                    B   -1.45101e-05  -1.45101e-05               
+   932 constraint930
+                    B    1.62851e-05   1.62851e-05               
+   933 constraint931
+                    B   -1.62851e-05  -1.62851e-05               
+   934 constraint932
+                    B    1.53976e-05   1.53976e-05               
+   935 constraint933
+                    B   -1.53976e-05  -1.53976e-05               
+   936 constraint934
+                    B    2.03481e-05   2.03481e-05               
+   937 constraint935
+                    B   -2.03481e-05  -2.03481e-05               
+   938 constraint936
+                    B    1.05523e-05   1.05523e-05               
+   939 constraint937
+                    B   -1.05523e-05  -1.05523e-05               
+   940 constraint938
+                    B    2.83432e-06   2.83432e-06               
+   941 constraint939
+                    B   -2.83432e-06  -2.83432e-06               
+   942 constraint940
+                    B    1.52476e-07   1.52476e-07               
+   943 constraint941
+                    B   -1.52476e-07  -1.52476e-07               
+   944 constraint942
+                    B   -4.77639e-06  -4.77639e-06               
+   945 constraint943
+                    B    4.77639e-06   4.77639e-06               
+   946 constraint944
+                    B   -7.43524e-06  -7.43524e-06               
+   947 constraint945
+                    B    7.43524e-06   7.43524e-06               
+   948 constraint946
+                    B   -7.01024e-06  -7.01024e-06               
+   949 constraint947
+                    B    7.01024e-06   7.01024e-06               
+   950 constraint948
+                    B   -8.75419e-06  -8.75419e-06               
+   951 constraint949
+                    B    8.75419e-06   8.75419e-06               
+   952 constraint950
+                    B   -1.29155e-05  -1.29155e-05               
+   953 constraint951
+                    B    1.29155e-05   1.29155e-05               
+   954 constraint952
+                    B   -2.17391e-05  -2.17391e-05               
+   955 constraint953
+                    B    2.17391e-05   2.17391e-05               
+   956 constraint954
+                    B   -4.28982e-05  -4.28982e-05               
+   957 constraint955
+                    B    4.28982e-05   4.28982e-05               
+   958 constraint956
+                    B   -8.99939e-05  -8.99939e-05               
+   959 constraint957
+                    B    8.99939e-05   8.99939e-05               
+   960 constraint958
+                    B   -9.34873e-05  -9.34873e-05               
+   961 constraint959
+                    B    9.34873e-05   9.34873e-05               
+   962 constraint960
+                    B   -5.79072e-05  -5.79072e-05               
+   963 constraint961
+                    B    5.79072e-05   5.79072e-05               
+   964 constraint962
+                    B   -6.74185e-05  -6.74185e-05               
+   965 constraint963
+                    B    6.74185e-05   6.74185e-05               
+   966 constraint964
+                    B   -0.000126729  -0.000126729               
+   967 constraint965
+                    B    0.000126729   0.000126729               
+   968 constraint966
+                    B   -8.17453e-05  -8.17453e-05               
+   969 constraint967
+                    B    8.17453e-05   8.17453e-05               
+   970 constraint968
+                    B    -4.1047e-05   -4.1047e-05               
+   971 constraint969
+                    B     4.1047e-05    4.1047e-05               
+   972 constraint970
+                    B   -3.06726e-05  -3.06726e-05               
+   973 constraint971
+                    B    3.06726e-05   3.06726e-05               
+   974 constraint972
+                    B    -2.6039e-05   -2.6039e-05               
+   975 constraint973
+                    B     2.6039e-05    2.6039e-05               
+   976 constraint974
+                    B   -1.23892e-05  -1.23892e-05               
+   977 constraint975
+                    B    1.23892e-05   1.23892e-05               
+   978 constraint976
+                    B    1.27142e-06   1.27142e-06               
+   979 constraint977
+                    B   -1.27142e-06  -1.27142e-06               
+   980 constraint978
+                    B    1.07478e-05   1.07478e-05               
+   981 constraint979
+                    B   -1.07478e-05  -1.07478e-05               
+   982 constraint980
+                    B    4.80087e-06   4.80087e-06               
+   983 constraint981
+                    B   -4.80087e-06  -4.80087e-06               
+   984 constraint982
+                    B    8.84734e-07   8.84734e-07               
+   985 constraint983
+                    B   -8.84734e-07  -8.84734e-07               
+   986 constraint984
+                    B   -3.00029e-07  -3.00029e-07               
+   987 constraint985
+                    B    3.00029e-07   3.00029e-07               
+   988 constraint986
+                    B   -6.00308e-07  -6.00308e-07               
+   989 constraint987
+                    B    6.00308e-07   6.00308e-07               
+   990 constraint988
+                    B   -6.08275e-07  -6.08275e-07               
+   991 constraint989
+                    B    6.08275e-07   6.08275e-07               
+   992 constraint990
+                    B   -5.11425e-07  -5.11425e-07               
+   993 constraint991
+                    B    5.11425e-07   5.11425e-07               
+   994 constraint992
+                    B   -3.74837e-07  -3.74837e-07               
+   995 constraint993
+                    B    3.74837e-07   3.74837e-07               
+   996 constraint994
+                    B   -2.21914e-07  -2.21914e-07               
+   997 constraint995
+                    B    2.21914e-07   2.21914e-07               
+   998 constraint996
+                    B   -6.01054e-08  -6.01054e-08               
+   999 constraint997
+                    B    6.01054e-08   6.01054e-08               
+  1000 constraint998
+                    B    1.10034e-07   1.10034e-07               
+  1001 constraint999
+                    B   -1.10034e-07  -1.10034e-07               
+  1002 constraint1000
+                    B    2.91509e-07   2.91509e-07               
+  1003 constraint1001
+                    B   -2.91509e-07  -2.91509e-07               
+  1004 constraint1002
+                    B    4.89786e-07   4.89786e-07               
+  1005 constraint1003
+                    B   -4.89786e-07  -4.89786e-07               
+  1006 constraint1004
+                    B    7.12787e-07   7.12787e-07               
+  1007 constraint1005
+                    B   -7.12787e-07  -7.12787e-07               
+  1008 constraint1006
+                    B    9.71606e-07   9.71606e-07               
+  1009 constraint1007
+                    B   -9.71606e-07  -9.71606e-07               
+  1010 constraint1008
+                    B    1.28205e-06   1.28205e-06               
+  1011 constraint1009
+                    B   -1.28205e-06  -1.28205e-06               
+  1012 constraint1010
+                    B    1.66739e-06   1.66739e-06               
+  1013 constraint1011
+                    B   -1.66739e-06  -1.66739e-06               
+  1014 constraint1012
+                    B    2.16344e-06   2.16344e-06               
+  1015 constraint1013
+                    B   -2.16344e-06  -2.16344e-06               
+  1016 constraint1014
+                    B    2.82801e-06   2.82801e-06               
+  1017 constraint1015
+                    B   -2.82801e-06  -2.82801e-06               
+  1018 constraint1016
+                    B    3.76001e-06   3.76001e-06               
+  1019 constraint1017
+                    B   -3.76001e-06  -3.76001e-06               
+  1020 constraint1018
+                    B    5.14131e-06   5.14131e-06               
+  1021 constraint1019
+                    B   -5.14131e-06  -5.14131e-06               
+  1022 constraint1020
+                    B     7.3378e-06    7.3378e-06               
+  1023 constraint1021
+                    B    -7.3378e-06   -7.3378e-06               
+  1024 constraint1022
+                    B    1.11774e-05   1.11774e-05               
+  1025 constraint1023
+                    B   -1.11774e-05  -1.11774e-05               
+  1026 constraint1024
+                    B    1.88255e-05   1.88255e-05               
+  1027 constraint1025
+                    B   -1.88255e-05  -1.88255e-05               
+  1028 constraint1026
+                    B    3.64428e-05   3.64428e-05               
+  1029 constraint1027
+                    B   -3.64428e-05  -3.64428e-05               
+  1030 constraint1028
+                    B    6.87482e-05   6.87482e-05               
+  1031 constraint1029
+                    B   -6.87482e-05  -6.87482e-05               
+  1032 constraint1030
+                    B    8.67233e-05   8.67233e-05               
+  1033 constraint1031
+                    B   -8.67233e-05  -8.67233e-05               
+  1034 constraint1032
+                    B    0.000129347   0.000129347               
+  1035 constraint1033
+                    B   -0.000129347  -0.000129347               
+  1036 constraint1034
+                    B    9.51642e-05   9.51642e-05               
+  1037 constraint1035
+                    B   -9.51642e-05  -9.51642e-05               
+  1038 constraint1036
+                    B    4.32017e-05   4.32017e-05               
+  1039 constraint1037
+                    B   -4.32017e-05  -4.32017e-05               
+  1040 constraint1038
+                    B    2.20894e-05   2.20894e-05               
+  1041 constraint1039
+                    B   -2.20894e-05  -2.20894e-05               
+  1042 constraint1040
+                    B    1.30715e-05   1.30715e-05               
+  1043 constraint1041
+                    B   -1.30715e-05  -1.30715e-05               
+  1044 constraint1042
+                    B    8.57434e-06   8.57434e-06               
+  1045 constraint1043
+                    B   -8.57434e-06  -8.57434e-06               
+  1046 constraint1044
+                    B    6.04482e-06   6.04482e-06               
+  1047 constraint1045
+                    B   -6.04482e-06  -6.04482e-06               
+  1048 constraint1046
+                    B    4.49319e-06   4.49319e-06               
+  1049 constraint1047
+                    B   -4.49319e-06  -4.49319e-06               
+  1050 constraint1048
+                    B    3.47988e-06   3.47988e-06               
+  1051 constraint1049
+                    B   -3.47988e-06  -3.47988e-06               
+  1052 constraint1050
+                    B     2.7877e-06    2.7877e-06               
+  1053 constraint1051
+                    B    -2.7877e-06   -2.7877e-06               
+  1054 constraint1052
+                    B    2.30037e-06   2.30037e-06               
+  1055 constraint1053
+                    B   -2.30037e-06  -2.30037e-06               
+  1056 constraint1054
+                    B    1.95208e-06   1.95208e-06               
+  1057 constraint1055
+                    B   -1.95208e-06  -1.95208e-06               
+  1058 constraint1056
+                    B    1.70471e-06   1.70471e-06               
+  1059 constraint1057
+                    B   -1.70471e-06  -1.70471e-06               
+  1060 constraint1058
+                    B    1.53713e-06   1.53713e-06               
+  1061 constraint1059
+                    B   -1.53713e-06  -1.53713e-06               
+  1062 constraint1060
+                    B    1.44083e-06   1.44083e-06               
+  1063 constraint1061
+                    B   -1.44083e-06  -1.44083e-06               
+  1064 constraint1062
+                    B    1.42007e-06   1.42007e-06               
+  1065 constraint1063
+                    B   -1.42007e-06  -1.42007e-06               
+  1066 constraint1064
+                    B    1.49819e-06   1.49819e-06               
+  1067 constraint1065
+                    B   -1.49819e-06  -1.49819e-06               
+  1068 constraint1066
+                    B     1.7379e-06    1.7379e-06               
+  1069 constraint1067
+                    B    -1.7379e-06   -1.7379e-06               
+  1070 constraint1068
+                    B     2.3042e-06    2.3042e-06               
+  1071 constraint1069
+                    B    -2.3042e-06   -2.3042e-06               
+  1072 constraint1070
+                    B    3.67562e-06   3.67562e-06               
+  1073 constraint1071
+                    B   -3.67562e-06  -3.67562e-06               
+  1074 constraint1072
+                    B    7.15921e-06   7.15921e-06               
+  1075 constraint1073
+                    B   -7.15921e-06  -7.15921e-06               
+  1076 constraint1074
+                    B    1.20621e-05   1.20621e-05               
+  1077 constraint1075
+                    B   -1.20621e-05  -1.20621e-05               
+  1078 constraint1076
+                    B    1.15418e-05   1.15418e-05               
+  1079 constraint1077
+                    B   -1.15418e-05  -1.15418e-05               
+  1080 constraint1078
+                    B    5.84006e-06   5.84006e-06               
+  1081 constraint1079
+                    B   -5.84006e-06  -5.84006e-06               
+  1082 constraint1080
+                    B    2.95806e-06   2.95806e-06               
+  1083 constraint1081
+                    B   -2.95806e-06  -2.95806e-06               
+  1084 constraint1082
+                    B    1.77561e-06   1.77561e-06               
+  1085 constraint1083
+                    B   -1.77561e-06  -1.77561e-06               
+  1086 constraint1084
+                    B    1.20847e-06   1.20847e-06               
+  1087 constraint1085
+                    B   -1.20847e-06  -1.20847e-06               
+  1088 constraint1086
+                    B    8.94388e-07   8.94388e-07               
+  1089 constraint1087
+                    B   -8.94388e-07  -8.94388e-07               
+  1090 constraint1088
+                    B    7.00832e-07   7.00832e-07               
+  1091 constraint1089
+                    B   -7.00832e-07  -7.00832e-07               
+  1092 constraint1090
+                    B     5.7172e-07    5.7172e-07               
+  1093 constraint1091
+                    B    -5.7172e-07   -5.7172e-07               
+  1094 constraint1092
+                    B    4.80274e-07   4.80274e-07               
+  1095 constraint1093
+                    B   -4.80274e-07  -4.80274e-07               
+  1096 constraint1094
+                    B    4.12432e-07   4.12432e-07               
+  1097 constraint1095
+                    B   -4.12432e-07  -4.12432e-07               
+  1098 constraint1096
+                    B    3.60229e-07   3.60229e-07               
+  1099 constraint1097
+                    B   -3.60229e-07  -3.60229e-07               
+  1100 constraint1098
+                    B    3.18868e-07   3.18868e-07               
+  1101 constraint1099
+                    B   -3.18868e-07  -3.18868e-07               
+  1102 constraint1100
+                    B    2.85312e-07   2.85312e-07               
+  1103 constraint1101
+                    B   -2.85312e-07  -2.85312e-07               
+  1104 constraint1102
+                    B    2.57553e-07   2.57553e-07               
+  1105 constraint1103
+                    B   -2.57553e-07  -2.57553e-07               
+  1106 constraint1104
+                    B    2.34216e-07   2.34216e-07               
+  1107 constraint1105
+                    B   -2.34216e-07  -2.34216e-07               
+  1108 constraint1106
+                    B    2.14329e-07   2.14329e-07               
+  1109 constraint1107
+                    B   -2.14329e-07  -2.14329e-07               
+  1110 constraint1108
+                    B    1.97188e-07   1.97188e-07               
+  1111 constraint1109
+                    B   -1.97188e-07  -1.97188e-07               
+  1112 constraint1110
+                    B    1.82267e-07   1.82267e-07               
+  1113 constraint1111
+                    B   -1.82267e-07  -1.82267e-07               
+  1114 constraint1112
+                    B     1.6917e-07    1.6917e-07               
+  1115 constraint1113
+                    B    -1.6917e-07   -1.6917e-07               
+  1116 constraint1114
+                    B     1.5759e-07    1.5759e-07               
+  1117 constraint1115
+                    B    -1.5759e-07   -1.5759e-07               
+  1118 constraint1116
+                    B    1.47285e-07   1.47285e-07               
+  1119 constraint1117
+                    B   -1.47285e-07  -1.47285e-07               
+  1120 constraint1118
+                    B    1.38063e-07   1.38063e-07               
+  1121 constraint1119
+                    B   -1.38063e-07  -1.38063e-07               
+  1122 constraint1120
+                    B     1.2977e-07    1.2977e-07               
+  1123 constraint1121
+                    B    -1.2977e-07   -1.2977e-07               
+  1124 constraint1122
+                    B    1.22279e-07   1.22279e-07               
+  1125 constraint1123
+                    B   -1.22279e-07  -1.22279e-07               
+  1126 constraint1124
+                    B    1.15485e-07   1.15485e-07               
+  1127 constraint1125
+                    B   -1.15485e-07  -1.15485e-07               
+  1128 constraint1126
+                    B    1.09302e-07   1.09302e-07               
+  1129 constraint1127
+                    B   -1.09302e-07  -1.09302e-07               
+  1130 constraint1128
+                    B    1.03657e-07   1.03657e-07               
+  1131 constraint1129
+                    B   -1.03657e-07  -1.03657e-07               
+  1132 constraint1130
+                    B     9.8487e-08    9.8487e-08               
+  1133 constraint1131
+                    B    -9.8487e-08   -9.8487e-08               
+  1134 constraint1132
+                    B    9.37404e-08   9.37404e-08               
+  1135 constraint1133
+                    B   -9.37404e-08  -9.37404e-08               
+  1136 constraint1134
+                    B    8.93718e-08   8.93718e-08               
+  1137 constraint1135
+                    B   -8.93718e-08  -8.93718e-08               
+  1138 constraint1136
+                    B     8.5342e-08    8.5342e-08               
+  1139 constraint1137
+                    B    -8.5342e-08   -8.5342e-08               
+  1140 constraint1138
+                    B    8.16172e-08   8.16172e-08               
+  1141 constraint1139
+                    B   -8.16172e-08  -8.16172e-08               
+  1142 constraint1140
+                    B    7.81679e-08   7.81679e-08               
+  1143 constraint1141
+                    B   -7.81679e-08  -7.81679e-08               
+  1144 constraint1142
+                    B    7.49682e-08   7.49682e-08               
+  1145 constraint1143
+                    B   -7.49682e-08  -7.49682e-08               
+  1146 constraint1144
+                    B    7.19952e-08   7.19952e-08               
+  1147 constraint1145
+                    B   -7.19952e-08  -7.19952e-08               
+  1148 constraint1146
+                    B     6.9229e-08    6.9229e-08               
+  1149 constraint1147
+                    B    -6.9229e-08   -6.9229e-08               
+  1150 constraint1148
+                    B    6.66516e-08   6.66516e-08               
+  1151 constraint1149
+                    B   -6.66516e-08  -6.66516e-08               
+  1152 constraint1150
+                    B    6.42471e-08   6.42471e-08               
+  1153 constraint1151
+                    B   -6.42471e-08  -6.42471e-08               
+  1154 constraint1152
+                    B    6.20014e-08   6.20014e-08               
+  1155 constraint1153
+                    B   -6.20014e-08  -6.20014e-08               
+  1156 constraint1154
+                    B    5.99019e-08   5.99019e-08               
+  1157 constraint1155
+                    B   -5.99019e-08  -5.99019e-08               
+  1158 constraint1156
+                    B     5.7937e-08    5.7937e-08               
+  1159 constraint1157
+                    B    -5.7937e-08   -5.7937e-08               
+  1160 constraint1158
+                    B    5.60967e-08   5.60967e-08               
+  1161 constraint1159
+                    B   -5.60967e-08  -5.60967e-08               
+  1162 constraint1160
+                    B    5.43715e-08   5.43715e-08               
+  1163 constraint1161
+                    B   -5.43715e-08  -5.43715e-08               
+  1164 constraint1162
+                    B    5.27533e-08   5.27533e-08               
+  1165 constraint1163
+                    B   -5.27533e-08  -5.27533e-08               
+  1166 constraint1164
+                    B    5.12343e-08   5.12343e-08               
+  1167 constraint1165
+                    B   -5.12343e-08  -5.12343e-08               
+  1168 constraint1166
+                    B    4.98078e-08   4.98078e-08               
+  1169 constraint1167
+                    B   -4.98078e-08  -4.98078e-08               
+  1170 constraint1168
+                    B    4.84674e-08   4.84674e-08               
+  1171 constraint1169
+                    B   -4.84674e-08  -4.84674e-08               
+  1172 constraint1170
+                    B    4.72075e-08   4.72075e-08               
+  1173 constraint1171
+                    B   -4.72075e-08  -4.72075e-08               
+  1174 constraint1172
+                    B    4.60228e-08   4.60228e-08               
+  1175 constraint1173
+                    B   -4.60228e-08  -4.60228e-08               
+  1176 constraint1174
+                    B    4.49087e-08   4.49087e-08               
+  1177 constraint1175
+                    B   -4.49087e-08  -4.49087e-08               
+  1178 constraint1176
+                    B    4.38607e-08   4.38607e-08               
+  1179 constraint1177
+                    B   -4.38607e-08  -4.38607e-08               
+  1180 constraint1178
+                    B    4.28749e-08   4.28749e-08               
+  1181 constraint1179
+                    B   -4.28749e-08  -4.28749e-08               
+  1182 constraint1180
+                    B    4.19477e-08   4.19477e-08               
+  1183 constraint1181
+                    B   -4.19477e-08  -4.19477e-08               
+  1184 constraint1182
+                    B    4.10755e-08   4.10755e-08               
+  1185 constraint1183
+                    B   -4.10755e-08  -4.10755e-08               
+  1186 constraint1184
+                    B    4.02555e-08   4.02555e-08               
+  1187 constraint1185
+                    B   -4.02555e-08  -4.02555e-08               
+  1188 constraint1186
+                    B    3.94846e-08   3.94846e-08               
+  1189 constraint1187
+                    B   -3.94846e-08  -3.94846e-08               
+  1190 constraint1188
+                    B    3.87603e-08   3.87603e-08               
+  1191 constraint1189
+                    B   -3.87603e-08  -3.87603e-08               
+  1192 constraint1190
+                    B    3.80802e-08   3.80802e-08               
+  1193 constraint1191
+                    B   -3.80802e-08  -3.80802e-08               
+  1194 constraint1192
+                    B    3.74421e-08   3.74421e-08               
+  1195 constraint1193
+                    B   -3.74421e-08  -3.74421e-08               
+  1196 constraint1194
+                    B    3.68438e-08   3.68438e-08               
+  1197 constraint1195
+                    B   -3.68438e-08  -3.68438e-08               
+  1198 constraint1196
+                    B    3.62835e-08   3.62835e-08               
+  1199 constraint1197
+                    B   -3.62835e-08  -3.62835e-08               
+  1200 constraint1198
+                    B    3.57594e-08   3.57594e-08               
+  1201 constraint1199
+                    B   -3.57594e-08  -3.57594e-08               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 X1           NL             0             0                           1 
+     2 X2           NL             0             0                           1 
+     3 X3           NL             0             0                           1 
+     4 X4           NL             0             0                           1 
+     5 X5           NL             0             0                           1 
+     6 X6           NL             0             0                           1 
+     7 X7           NL             0             0                           1 
+     8 X8           NL             0             0                           1 
+     9 X9           NL             0             0                           1 
+    10 X10          NL             0             0                           1 
+    11 X11          NL             0             0                           1 
+    12 X12          NL             0             0                           1 
+    13 X13          NL             0             0                           1 
+    14 X14          NL             0             0                           1 
+    15 X15          NL             0             0                           1 
+    16 X16          NL             0             0                           1 
+    17 X17          NL             0             0                           1 
+    18 X18          NL             0             0                           1 
+    19 X19          NL             0             0                           1 
+    20 X20          NL             0             0                           1 
+    21 X21          NL             0             0                           1 
+    22 X22          NL             0             0                           1 
+    23 X23          NL             0             0                           1 
+    24 X24          NL             0             0                           1 
+    25 X25          NL             0             0                           1 
+    26 X26          NL             0             0                           1 
+    27 X27          NL             0             0                           1 
+    28 X28          NL             0             0                           1 
+    29 X29          NL             0             0                           1 
+    30 X30          NL             0             0                           1 
+    31 X31          NL             0             0                           1 
+    32 X32          NL             0             0                           1 
+    33 X33          NL             0             0                           1 
+    34 X34          NL             0             0                           1 
+    35 X35          NL             0             0                           1 
+    36 X36          NL             0             0                           1 
+    37 X37          NL             0             0                           1 
+    38 X38          NL             0             0                           1 
+    39 X39          NL             0             0                           1 
+    40 X40          NL             0             0                           1 
+    41 X41          NL             0             0                           1 
+    42 X42          NL             0             0                           1 
+    43 X43          NL             0             0                           1 
+    44 X44          NL             0             0                           1 
+    45 X45          NL             0             0                           1 
+    46 X46          NL             0             0                           1 
+    47 X47          NL             0             0                           1 
+    48 X48          NL             0             0                           1 
+    49 X49          NL             0             0                           1 
+    50 X50          NL             0             0                           1 
+    51 X51          NL             0             0                           1 
+    52 X52          NL             0             0                           1 
+    53 X53          NL             0             0                           1 
+    54 X54          NL             0             0                           1 
+    55 X55          NL             0             0                           1 
+    56 X56          NL             0             0                           1 
+    57 X57          NL             0             0                           1 
+    58 X58          NL             0             0                           1 
+    59 X59          NL             0             0                           1 
+    60 X60          NL             0             0                           1 
+    61 X61          NL             0             0                           1 
+    62 X62          NL             0             0                           1 
+    63 X63          NL             0             0                           1 
+    64 X64          NL             0             0                           1 
+    65 X65          NL             0             0                           1 
+    66 X66          NL             0             0                           1 
+    67 X67          NL             0             0                           1 
+    68 X68          NL             0             0                           1 
+    69 X69          NL             0             0                           1 
+    70 X70          NL             0             0                           1 
+    71 X71          NL             0             0                           1 
+    72 X72          NL             0             0                           1 
+    73 X73          NL             0             0                           1 
+    74 X74          NL             0             0                           1 
+    75 X75          NL             0             0                           1 
+    76 X76          NL             0             0                           1 
+    77 X77          NL             0             0                           1 
+    78 X78          NL             0             0                           1 
+    79 X79          NL             0             0                           1 
+    80 X80          NL             0             0                           1 
+    81 X81          NL             0             0                           1 
+    82 X82          NL             0             0                           1 
+    83 X83          NL             0             0                           1 
+    84 X84          NL             0             0                           1 
+    85 X85          NL             0             0                           1 
+    86 X86          NL             0             0                           1 
+    87 X87          NL             0             0                           1 
+    88 X88          NL             0             0                           1 
+    89 X89          NL             0             0                           1 
+    90 X90          NL             0             0                           1 
+    91 X91          NL             0             0                           1 
+    92 X92          NL             0             0                           1 
+    93 X93          NL             0             0                           1 
+    94 X94          NL             0             0                           1 
+    95 X95          NL             0             0                           1 
+    96 X96          NL             0             0                           1 
+    97 X97          NL             0             0                           1 
+    98 X98          NL             0             0                           1 
+    99 X99          NL             0             0                           1 
+   100 X100         NL             0             0                           1 
+   101 X101         NL             0             0                           1 
+   102 X102         NL             0             0                           1 
+   103 X103         NL             0             0                           1 
+   104 X104         NL             0             0                           1 
+   105 X105         NL             0             0                           1 
+   106 X106         NL             0             0                           1 
+   107 X107         NL             0             0                           1 
+   108 X108         NL             0             0                           1 
+   109 X109         NL             0             0                           1 
+   110 X110         NL             0             0                           1 
+   111 X111         NL             0             0                           1 
+   112 X112         NL             0             0                           1 
+   113 X113         NL             0             0                           1 
+   114 X114         NL             0             0                           1 
+   115 X115         NL             0             0                           1 
+   116 X116         NL             0             0                           1 
+   117 X117         NL             0             0                           1 
+   118 X118         NL             0             0                           1 
+   119 X119         NL             0             0                           1 
+   120 X120         NL             0             0                           1 
+   121 X121         NL             0             0                           1 
+   122 X122         NL             0             0                           1 
+   123 X123         NL             0             0                           1 
+   124 X124         NL             0             0                           1 
+   125 X125         NL             0             0                           1 
+   126 X126         NL             0             0                           1 
+   127 X127         NL             0             0                           1 
+   128 X128         NL             0             0                           1 
+   129 X129         NL             0             0                           1 
+   130 X130         NL             0             0                           1 
+   131 X131         NL             0             0                           1 
+   132 X132         NL             0             0                           1 
+   133 X133         NL             0             0                           1 
+   134 X134         NL             0             0                           1 
+   135 X135         NL             0             0                           1 
+   136 X136         NL             0             0                           1 
+   137 X137         NL             0             0                           1 
+   138 X138         NL             0             0                           1 
+   139 X139         NL             0             0                           1 
+   140 X140         NL             0             0                           1 
+   141 X141         NL             0             0                           1 
+   142 X142         NL             0             0                           1 
+   143 X143         NL             0             0                           1 
+   144 X144         NL             0             0                           1 
+   145 X145         NL             0             0                           1 
+   146 X146         NL             0             0                           1 
+   147 X147         NL             0             0                           1 
+   148 X148         NL             0             0                           1 
+   149 X149         NL             0             0                           1 
+   150 X150         NL             0             0                           1 
+   151 X151         NL             0             0                           1 
+   152 X152         NL             0             0                           1 
+   153 X153         NL             0             0                           1 
+   154 X154         NL             0             0                           1 
+   155 X155         NL             0             0                           1 
+   156 X156         NL             0             0                           1 
+   157 X157         NL             0             0                           1 
+   158 X158         NL             0             0                           1 
+   159 X159         NL             0             0                           1 
+   160 X160         NL             0             0                           1 
+   161 X161         NL             0             0                           1 
+   162 X162         NL             0             0                           1 
+   163 X163         NL             0             0                           1 
+   164 X164         NL             0             0                           1 
+   165 X165         NL             0             0                           1 
+   166 X166         NL             0             0                           1 
+   167 X167         NL             0             0                           1 
+   168 X168         NL             0             0                           1 
+   169 X169         NL             0             0                           1 
+   170 X170         NL             0             0                           1 
+   171 X171         NL             0             0                           1 
+   172 X172         NL             0             0                           1 
+   173 X173         NL             0             0                           1 
+   174 X174         NL             0             0                           1 
+   175 X175         NL             0             0                           1 
+   176 X176         NL             0             0                           1 
+   177 X177         NL             0             0                           1 
+   178 X178         NL             0             0                           1 
+   179 X179         NL             0             0                           1 
+   180 X180         NL             0             0                           1 
+   181 X181         NL             0             0                           1 
+   182 X182         NL             0             0                           1 
+   183 X183         NL             0             0                           1 
+   184 X184         NL             0             0                           1 
+   185 X185         NL             0             0                           1 
+   186 X186         NL             0             0                           1 
+   187 X187         NL             0             0                           1 
+   188 X188         NL             0             0                           1 
+   189 X189         NL             0             0                           1 
+   190 X190         NL             0             0                           1 
+   191 X191         NL             0             0                           1 
+   192 X192         NL             0             0                           1 
+   193 X193         NL             0             0                           1 
+   194 X194         NL             0             0                           1 
+   195 X195         NL             0             0                           1 
+   196 X196         NL             0             0                           1 
+   197 X197         NL             0             0                           1 
+   198 X198         NL             0             0                           1 
+   199 X199         NL             0             0                           1 
+   200 X200         NL             0             0                           1 
+   201 X201         NL             0             0                           1 
+   202 X202         NL             0             0                           1 
+   203 X203         NL             0             0                           1 
+   204 X204         NL             0             0                           1 
+   205 X205         NL             0             0                           1 
+   206 X206         NL             0             0                           1 
+   207 X207         NL             0             0                           1 
+   208 X208         NL             0             0                           1 
+   209 X209         NL             0             0                           1 
+   210 X210         NL             0             0                           1 
+   211 X211         NL             0             0                           1 
+   212 X212         NL             0             0                           1 
+   213 X213         NL             0             0                           1 
+   214 X214         NL             0             0                           1 
+   215 X215         NL             0             0                           1 
+   216 X216         NL             0             0                           1 
+   217 X217         NL             0             0                           1 
+   218 X218         NL             0             0                           1 
+   219 X219         NL             0             0                           1 
+   220 X220         NL             0             0                           1 
+   221 X221         NL             0             0                           1 
+   222 X222         NL             0             0                           1 
+   223 X223         NL             0             0                           1 
+   224 X224         NL             0             0                           1 
+   225 X225         NL             0             0                           1 
+   226 X226         NL             0             0                           1 
+   227 X227         NL             0             0                           1 
+   228 X228         NL             0             0                           1 
+   229 X229         NL             0             0                           1 
+   230 X230         NL             0             0                           1 
+   231 X231         NL             0             0                           1 
+   232 X232         NL             0             0                           1 
+   233 X233         NL             0             0                           1 
+   234 X234         NL             0             0                           1 
+   235 X235         NL             0             0                           1 
+   236 X236         NL             0             0                           1 
+   237 X237         NL             0             0                           1 
+   238 X238         NL             0             0                           1 
+   239 X239         NL             0             0                           1 
+   240 X240         NL             0             0                           1 
+   241 X241         NL             0             0                           1 
+   242 X242         NL             0             0                           1 
+   243 X243         NL             0             0                           1 
+   244 X244         NL             0             0                           1 
+   245 X245         NL             0             0                           1 
+   246 X246         NL             0             0                           1 
+   247 X247         NL             0             0                           1 
+   248 X248         NL             0             0                           1 
+   249 X249         NL             0             0                           1 
+   250 X250         NL             0             0                           1 
+   251 X251         NL             0             0                           1 
+   252 X252         NL             0             0                           1 
+   253 X253         NL             0             0                           1 
+   254 X254         NL             0             0                           1 
+   255 X255         NL             0             0                           1 
+   256 X256         NL             0             0                           1 
+   257 X257         NL             0             0                           1 
+   258 X258         NL             0             0                           1 
+   259 X259         NL             0             0                           1 
+   260 X260         NL             0             0                           1 
+   261 X261         NL             0             0                           1 
+   262 X262         NL             0             0                           1 
+   263 X263         NL             0             0                           1 
+   264 X264         NL             0             0                           1 
+   265 X265         NL             0             0                           1 
+   266 X266         NL             0             0                           1 
+   267 X267         NL             0             0                           1 
+   268 X268         NL             0             0                           1 
+   269 X269         NL             0             0                           1 
+   270 X270         NL             0             0                           1 
+   271 X271         NL             0             0                           1 
+   272 X272         NL             0             0                           1 
+   273 X273         NL             0             0                           1 
+   274 X274         NL             0             0                           1 
+   275 X275         NL             0             0                           1 
+   276 X276         NL             0             0                           1 
+   277 X277         NL             0             0                           1 
+   278 X278         NL             0             0                           1 
+   279 X279         NL             0             0                           1 
+   280 X280         NL             0             0                           1 
+   281 X281         NL             0             0                           1 
+   282 X282         NL             0             0                           1 
+   283 X283         NL             0             0                           1 
+   284 X284         NL             0             0                           1 
+   285 X285         NL             0             0                           1 
+   286 X286         NL             0             0                           1 
+   287 X287         NL             0             0                           1 
+   288 X288         NL             0             0                           1 
+   289 X289         NL             0             0                           1 
+   290 X290         NL             0             0                           1 
+   291 X291         NL             0             0                           1 
+   292 X292         NL             0             0                           1 
+   293 X293         NL             0             0                           1 
+   294 X294         NL             0             0                           1 
+   295 X295         NL             0             0                           1 
+   296 X296         NL             0             0                           1 
+   297 X297         NL             0             0                           1 
+   298 X298         NL             0             0                           1 
+   299 X299         NL             0             0                           1 
+   300 X300         NL             0             0                           1 
+   301 X301         NL             0             0                           1 
+   302 X302         NL             0             0                           1 
+   303 X303         NL             0             0                           1 
+   304 X304         NL             0             0                           1 
+   305 X305         NL             0             0                           1 
+   306 X306         NL             0             0                           1 
+   307 X307         NL             0             0                           1 
+   308 X308         NL             0             0                           1 
+   309 X309         NL             0             0                           1 
+   310 X310         NL             0             0                           1 
+   311 X311         NL             0             0                           1 
+   312 X312         NL             0             0                           1 
+   313 X313         NL             0             0                           1 
+   314 X314         NL             0             0                           1 
+   315 X315         NL             0             0                           1 
+   316 X316         NL             0             0                           1 
+   317 X317         NL             0             0                           1 
+   318 X318         NL             0             0                           1 
+   319 X319         NL             0             0                           1 
+   320 X320         NL             0             0                           1 
+   321 X321         NL             0             0                           1 
+   322 X322         NL             0             0                           1 
+   323 X323         NL             0             0                           1 
+   324 X324         NL             0             0                           1 
+   325 X325         NL             0             0                           1 
+   326 X326         NL             0             0                           1 
+   327 X327         NL             0             0                           1 
+   328 X328         NL             0             0                           1 
+   329 X329         NL             0             0                           1 
+   330 X330         NL             0             0                           1 
+   331 X331         NL             0             0                           1 
+   332 X332         NL             0             0                           1 
+   333 X333         NL             0             0                           1 
+   334 X334         NL             0             0                           1 
+   335 X335         NL             0             0                           1 
+   336 X336         NL             0             0                           1 
+   337 X337         NL             0             0                           1 
+   338 X338         NL             0             0                           1 
+   339 X339         NL             0             0                           1 
+   340 X340         NL             0             0                           1 
+   341 X341         NL             0             0                           1 
+   342 X342         NL             0             0                           1 
+   343 X343         NL             0             0                           1 
+   344 X344         NL             0             0                           1 
+   345 X345         NL             0             0                           1 
+   346 X346         NL             0             0                           1 
+   347 X347         NL             0             0                           1 
+   348 X348         NL             0             0                           1 
+   349 X349         NL             0             0                           1 
+   350 X350         NL             0             0                           1 
+   351 X351         NL             0             0                           1 
+   352 X352         NL             0             0                           1 
+   353 X353         NL             0             0                           1 
+   354 X354         NL             0             0                           1 
+   355 X355         NL             0             0                           1 
+   356 X356         NL             0             0                           1 
+   357 X357         NL             0             0                           1 
+   358 X358         NL             0             0                           1 
+   359 X359         NL             0             0                           1 
+   360 X360         NL             0             0                           1 
+   361 X361         NL             0             0                           1 
+   362 X362         NL             0             0                           1 
+   363 X363         NL             0             0                           1 
+   364 X364         NL             0             0                           1 
+   365 X365         NL             0             0                           1 
+   366 X366         NL             0             0                           1 
+   367 X367         NL             0             0                           1 
+   368 X368         NL             0             0                           1 
+   369 X369         NL             0             0                           1 
+   370 X370         NL             0             0                           1 
+   371 X371         NL             0             0                           1 
+   372 X372         NL             0             0                           1 
+   373 X373         NL             0             0                           1 
+   374 X374         NL             0             0                           1 
+   375 X375         NL             0             0                           1 
+   376 X376         NL             0             0                           1 
+   377 X377         NL             0             0                           1 
+   378 X378         NL             0             0                           1 
+   379 X379         NL             0             0                           1 
+   380 X380         NL             0             0                           1 
+   381 X381         NL             0             0                           1 
+   382 X382         NL             0             0                           1 
+   383 X383         NL             0             0                           1 
+   384 X384         NL             0             0                           1 
+   385 X385         NL             0             0                           1 
+   386 X386         NL             0             0                           1 
+   387 X387         NL             0             0                           1 
+   388 X388         NL             0             0                           1 
+   389 X389         NL             0             0                           1 
+   390 X390         NL             0             0                           1 
+   391 X391         NL             0             0                           1 
+   392 X392         NL             0             0                           1 
+   393 X393         NL             0             0                           1 
+   394 X394         NL             0             0                           1 
+   395 X395         NL             0             0                           1 
+   396 X396         NL             0             0                           1 
+   397 X397         NL             0             0                           1 
+   398 X398         NL             0             0                           1 
+   399 X399         NL             0             0                           1 
+   400 X400         NL             0             0                           1 
+   401 X401         NL             0             0                           1 
+   402 X402         NL             0             0                           1 
+   403 X403         NL             0             0                           1 
+   404 X404         NL             0             0                           1 
+   405 X405         NL             0             0                           1 
+   406 X406         NL             0             0                           1 
+   407 X407         NL             0             0                           1 
+   408 X408         NL             0             0                           1 
+   409 X409         NL             0             0                           1 
+   410 X410         NL             0             0                           1 
+   411 X411         NL             0             0                           1 
+   412 X412         NL             0             0                           1 
+   413 X413         NL             0             0                           1 
+   414 X414         NL             0             0                           1 
+   415 X415         NL             0             0                           1 
+   416 X416         NL             0             0                           1 
+   417 X417         NL             0             0                           1 
+   418 X418         NL             0             0                           1 
+   419 X419         NL             0             0                           1 
+   420 X420         NL             0             0                           1 
+   421 X421         NL             0             0                           1 
+   422 X422         NL             0             0                           1 
+   423 X423         NL             0             0                           1 
+   424 X424         NL             0             0                           1 
+   425 X425         NL             0             0                           1 
+   426 X426         NL             0             0                           1 
+   427 X427         NL             0             0                           1 
+   428 X428         NL             0             0                           1 
+   429 X429         NL             0             0                           1 
+   430 X430         NL             0             0                           1 
+   431 X431         NL             0             0                           1 
+   432 X432         NL             0             0                           1 
+   433 X433         NL             0             0                           1 
+   434 X434         NL             0             0                           1 
+   435 X435         NL             0             0                           1 
+   436 X436         NL             0             0                           1 
+   437 X437         NL             0             0                           1 
+   438 X438         NL             0             0                           1 
+   439 X439         NL             0             0                           1 
+   440 X440         NL             0             0                           1 
+   441 X441         NL             0             0                           1 
+   442 X442         NL             0             0                           1 
+   443 X443         NL             0             0                           1 
+   444 X444         NL             0             0                           1 
+   445 X445         NL             0             0                           1 
+   446 X446         NL             0             0                           1 
+   447 X447         NL             0             0                           1 
+   448 X448         NL             0             0                           1 
+   449 X449         NL             0             0                           1 
+   450 X450         NL             0             0                           1 
+   451 X451         NL             0             0                           1 
+   452 X452         NL             0             0                           1 
+   453 X453         NL             0             0                           1 
+   454 X454         NL             0             0                           1 
+   455 X455         NL             0             0                           1 
+   456 X456         NL             0             0                           1 
+   457 X457         NL             0             0                           1 
+   458 X458         NL             0             0                           1 
+   459 X459         NL             0             0                           1 
+   460 X460         NL             0             0                           1 
+   461 X461         NL             0             0                           1 
+   462 X462         NL             0             0                           1 
+   463 X463         NL             0             0                           1 
+   464 X464         NL             0             0                           1 
+   465 X465         NL             0             0                           1 
+   466 X466         NL             0             0                           1 
+   467 X467         NL             0             0                           1 
+   468 X468         NL             0             0                           1 
+   469 X469         NL             0             0                           1 
+   470 X470         NL             0             0                           1 
+   471 X471         NL             0             0                           1 
+   472 X472         NL             0             0                           1 
+   473 X473         NL             0             0                           1 
+   474 X474         NL             0             0                           1 
+   475 X475         NL             0             0                           1 
+   476 X476         NL             0             0                           1 
+   477 X477         NL             0             0                           1 
+   478 X478         NL             0             0                           1 
+   479 X479         NL             0             0                           1 
+   480 X480         NL             0             0                           1 
+   481 X481         NL             0             0                           1 
+   482 X482         NL             0             0                           1 
+   483 X483         NL             0             0                           1 
+   484 X484         NL             0             0                           1 
+   485 X485         NL             0             0                           1 
+   486 X486         NL             0             0                           1 
+   487 X487         NL             0             0                           1 
+   488 X488         NL             0             0                           1 
+   489 X489         NL             0             0                           1 
+   490 X490         NL             0             0                           1 
+   491 X491         NL             0             0                           1 
+   492 X492         NL             0             0                           1 
+   493 X493         NL             0             0                           1 
+   494 X494         NL             0             0                           1 
+   495 X495         NL             0             0                           1 
+   496 X496         NL             0             0                           1 
+   497 X497         NL             0             0                           1 
+   498 X498         NL             0             0                           1 
+   499 X499         NL             0             0                           1 
+   500 X500         NL             0             0                           1 
+   501 X501         NL             0             0                           1 
+   502 X502         NL             0             0                           1 
+   503 X503         NL             0             0                           1 
+   504 X504         NL             0             0                           1 
+   505 X505         NL             0             0                           1 
+   506 X506         NL             0             0                           1 
+   507 X507         NL             0             0                           1 
+   508 X508         NL             0             0                           1 
+   509 X509         NL             0             0                           1 
+   510 X510         NL             0             0                           1 
+   511 X511         NL             0             0                           1 
+   512 X512         NL             0             0                           1 
+   513 X513         NL             0             0                           1 
+   514 X514         NL             0             0                           1 
+   515 X515         NL             0             0                           1 
+   516 X516         NL             0             0                           1 
+   517 X517         NL             0             0                           1 
+   518 X518         NL             0             0                           1 
+   519 X519         NL             0             0                           1 
+   520 X520         NL             0             0                           1 
+   521 X521         NL             0             0                           1 
+   522 X522         NL             0             0                           1 
+   523 X523         NL             0             0                           1 
+   524 X524         NL             0             0                           1 
+   525 X525         NL             0             0                           1 
+   526 X526         NL             0             0                           1 
+   527 X527         NL             0             0                           1 
+   528 X528         NL             0             0                           1 
+   529 X529         NL             0             0                           1 
+   530 X530         NL             0             0                           1 
+   531 X531         NL             0             0                           1 
+   532 X532         NL             0             0                           1 
+   533 X533         NL             0             0                           1 
+   534 X534         NL             0             0                           1 
+   535 X535         NL             0             0                           1 
+   536 X536         NL             0             0                           1 
+   537 X537         NL             0             0                           1 
+   538 X538         NL             0             0                           1 
+   539 X539         NL             0             0                           1 
+   540 X540         NL             0             0                           1 
+   541 X541         NL             0             0                           1 
+   542 X542         NL             0             0                           1 
+   543 X543         NL             0             0                           1 
+   544 X544         NL             0             0                           1 
+   545 X545         NL             0             0                           1 
+   546 X546         NL             0             0                           1 
+   547 X547         NL             0             0                           1 
+   548 X548         NL             0             0                           1 
+   549 X549         NL             0             0                           1 
+   550 X550         NL             0             0                           1 
+   551 X551         NL             0             0                           1 
+   552 X552         NL             0             0                           1 
+   553 X553         NL             0             0                           1 
+   554 X554         NL             0             0                           1 
+   555 X555         NL             0             0                           1 
+   556 X556         NL             0             0                           1 
+   557 X557         NL             0             0                           1 
+   558 X558         NL             0             0                           1 
+   559 X559         NL             0             0                           1 
+   560 X560         NL             0             0                           1 
+   561 X561         NL             0             0                           1 
+   562 X562         NL             0             0                           1 
+   563 X563         NL             0             0                           1 
+   564 X564         NL             0             0                           1 
+   565 X565         NL             0             0                           1 
+   566 X566         NL             0             0                           1 
+   567 X567         NL             0             0                           1 
+   568 X568         NL             0             0                           1 
+   569 X569         NL             0             0                           1 
+   570 X570         NL             0             0                           1 
+   571 X571         NL             0             0                           1 
+   572 X572         NL             0             0                           1 
+   573 X573         NL             0             0                           1 
+   574 X574         NL             0             0                           1 
+   575 X575         NL             0             0                           1 
+   576 X576         NL             0             0                           1 
+   577 X577         NL             0             0                           1 
+   578 X578         NL             0             0                           1 
+   579 X579         NL             0             0                           1 
+   580 X580         NL             0             0                           1 
+   581 X581         NL             0             0                           1 
+   582 X582         NL             0             0                           1 
+   583 X583         NL             0             0                           1 
+   584 X584         NL             0             0                           1 
+   585 X585         NL             0             0                           1 
+   586 X586         NL             0             0                           1 
+   587 X587         NL             0             0                           1 
+   588 X588         NL             0             0                           1 
+   589 X589         NL             0             0                           1 
+   590 X590         NL             0             0                           1 
+   591 X591         NL             0             0                           1 
+   592 X592         NL             0             0                           1 
+   593 X593         NL             0             0                           1 
+   594 X594         NL             0             0                           1 
+   595 X595         NL             0             0                           1 
+   596 X596         NL             0             0                           1 
+   597 X597         NL             0             0                           1 
+   598 X598         NL             0             0                           1 
+   599 X599         NL             0             0                           1 
+   600 X600         NL             0             0                           1 
+   601 x1           NL             0             0                       < eps
+   602 x2           NL             0             0                       < eps
+   603 x3           NL             0             0                       < eps
+   604 x4           B       0.314227             0               
+   605 x5           NL             0             0                       < eps
+   606 x6           B       0.404145             0               
+   607 x7           NL             0             0                       < eps
+   608 x8           NL             0             0                       < eps
+   609 x9           NL             0             0                       < eps
+   610 x10          NL             0             0                       < eps
+   611 x11          NL             0             0                       < eps
+   612 x12          NL             0             0                       < eps
+   613 x13          NL             0             0                       < eps
+   614 x14          B            0.2             0               
+   615 x15          NL             0             0                       < eps
+   616 x16          NL             0             0                       < eps
+   617 x17          NL             0             0                       < eps
+   618 x18          NL             0             0                       < eps
+   619 x19          B      0.0816282             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 6.78e-21 on row 230
+        max.rel.err = 6.78e-21 on row 230
+        High quality
+
+KKT.PB: max.abs.err = 6.11e-16 on row 967
+        max.rel.err = 6.11e-16 on row 967
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
