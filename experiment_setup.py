@@ -1,4 +1,8 @@
 import pylab, pickle, sys
+from ast import literal_eval
+from collections import Counter
+import numpy as np
+import matplotlib.pyplot as plt
 from candidate_class import *
 import random
 from subprocess import call
@@ -7,23 +11,14 @@ import realProblemSolver
 import create_candidates
 import obtain_lpoutput_result
 
-# for testing, base on the passing pickle file, create candidates with different theta
-#pickle_file1 = 'methionine.pkl'
-#pickle_file2 = 'Leu_dipproperty.pkl'
 
 theta_list = [0, 10, 20, 30, 40, 50, 60, 70, 80]
-#percentages = [[0, 0, 0.8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0 ],
-#	       [0, 0, 0.3, 0, 0, 0, 0.5, 0, 0, 0, 0, 0, 0, 0.2, 0, 0, 0, 0]]
 probe_arrange = arange(1000,2000,5)
-
-# candidates setting
-#candidates1 = [Candidate(pickle_file1, theta) for theta in theta_list]
-#candidates2 = [Candidate(pickle_file2, theta) for theta in theta_list]
-#candidates = candidates1 + candidates2
-pickle_files = ['methionine.pkl','Leu_dipproperty.pkl','Ile_dipproperty.pkl']
+pickle_files = ['methionine.pkl','Leu_dipproperty.pkl','Ile_dipproperty.pkl','Ala_dipproperty.pkl']
 candidates = [Candidate(pickle_file, theta) for pickle_file in pickle_files for theta in theta_list]
 
 percentages = []
+
 def experiment_setup(percentages):
   size = len(theta_list)
   percentage = [0]*size
@@ -43,7 +38,7 @@ def experiment_setup(percentages):
   print percentages, len(percentages)
 
 
-def experiment_setup1():
+def experiment_setup_notInUse():
   size = len(pickle_files)
   pickle_files_copy = list(pickle_files)
   
@@ -53,12 +48,8 @@ def experiment_setup1():
     pickle_file = pickle_files_copy[index1]
     pickle_files_copy[index1] = pickle_files_copy[-1]
     del pickle_files_copy[-1]
-    print pickle_file
     index2 = random.randint(0, len(theta_list)-1)
     theta = theta_list[index2]
-    print theta
-    #candidates.append(Candidate(pickle_file, theta))
-  
 
   for i in range(len(candidates)-1):
     percentage = round(random.uniform(0, 1- sum(percentages)),5)
@@ -68,8 +59,6 @@ def experiment_setup1():
   print percentages
 
 def run_experiment():
-  #open('score.txt','w').close()
-
   create_candidates.create_candidates(percentages, candidates, probe_arrange)
   # run 7 experiments in the set
   for i in range(7):
@@ -78,15 +67,53 @@ def run_experiment():
     call(["glpsol", "-o", "lp_output%s.txt"%(i), "--lp", "lp_input%s.txt"%(i)])
     call(["rm", "candidates%s.txt"%(i)])
     call(["rm", "lp_input%s.txt"%(i)])
-      
-  #result_file = 'result%s.txt'%(j)
-  #result_file = 'result.txt'
-  #score_file = 'score.txt'
-  #obtain_lpoutput_result.obtain_result(percentages, result_file, score_file)
+
+def generate_histogram(L, pic_name):
+  labels, values = zip(*Counter(L).items())
+  indexes = np.arange(len(labels))
+  width =1
+  plt.ylabel('Frequency')
+  bar = plt.bar(indexes, values, width)
+  plt.xticks(indexes+width, ['Experiment%s'%i for i in labels])
+
+  for i in bar:
+    height = i.get_height()
+    plt.text(i.get_x() + i.get_width()/2., 1.05*height, '%d' % int(height), ha='center', va='bottom')
+
+  plt.savefig('%s.png'%pic_name,dpi=100)
+  plt.close()
+
+def analyze_result():
+  L0, L1, L2, L3, L4, L5, L6 = [], [], [], [], [], [], []
+  lines = []
+  input = open('score.txt','r')
+  line = input.readline()
+  while line:
+    line = line.strip()
+    line = literal_eval(line)
+    lines.append(line)
+    line = input.readline() 
+  for i in lines:
+    L0.append(i[0])
+    L1.append(i[1])
+    L2.append(i[2])
+    L3.append(i[3])
+    L4.append(i[4])
+    L5.append(i[5])
+    L6.append(i[6])
+  generate_histogram(L0,'L0')
+  generate_histogram(L1,'L1')
+  generate_histogram(L2,'L2')
+  generate_histogram(L3,'L3')
+  generate_histogram(L4,'L4')
+  generate_histogram(L5,'L5')
+  generate_histogram(L6,'L6')
+  input.close()
+
 
 if __name__ == "__main__":
   open('score.txt','w').close()
-  for j in range(10):
+  for j in range(100):
     experiment_setup(percentages)
     
     run_experiment()
@@ -94,6 +121,6 @@ if __name__ == "__main__":
     score_file = 'score.txt'
     obtain_lpoutput_result.obtain_result(percentages, result_file, score_file)
     percentages = []
-    
+  analyze_result()
     
     
